@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
 
 /* ---------------------------- Navbar, copied from CodeInstitute Whiskey Drop Mini Project */
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar .navbar-toggler {
@@ -17,4 +22,39 @@
 
 .navbar .navbar-nav a {
     font-weight: bold;
+}
+
+/* ---------------------------- Buttons, copied from CodeInstitute Whiskey Drop Mini Project */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+/* ---------------------------- General Paddings, Margins & Text*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------- Footer */
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height:120px;
+    margin: 0;
 }

@@ -2,14 +2,24 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #ffab91;
+    color: #fff;
 }
 
-/* ---------------------------- Navbar, copied from CodeInstitute Whiskey Drop Mini Project */
+/* ---------------------------- My Colours */
+.bg-color-mynav {
+    background-color: #c97b63;
+}
+
+.bg-color-myfooter {
+    background-color: #ffddc1;
+}
+
+/* ---------------------------- My Navbar */
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar .navbar-toggler {
@@ -20,22 +30,18 @@ body {
     font-weight: bold;
 }
 
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
 
-/* ---------------------------- Buttons, copied from CodeInstitute Whiskey Drop Mini Project */
-
+/* ---------------------------- Buttons */
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
 }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+.btn--brand {
+    color: black;
+    background-color: #fff59d;
+    border-color: #fff59d;
 }
 
 .btn--red:hover,
@@ -53,8 +59,21 @@ body {
 
 /*--------------------------------------------------- Footer */
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    color: black;
     min-height:120px;
     margin: 0;
+}
+
+#my-footer-wrap {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-lists {
+    list-style-type: none;
+}
+
+.footer-lists a {
+    color: black;
+    text-decoration: none;
 }

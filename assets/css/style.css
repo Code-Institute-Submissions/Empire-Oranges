@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
+/* ---------------------------- General Body */
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffab91;
-    color: #fff;
+    background-color: #ffb4e6;
+    
+}
+
+/* ---------------------------- My a links */
+a {
+    color: black;
+    text-decoration: none;
 }
 
 /* ---------------------------- My Colours */
 .bg-color-mynav {
-    background-color: #c97b63;
+    background-color: #ff82b4;
 }
 
 .bg-color-myfooter {
-    background-color: #ffddc1;
+    background-color: #ff82b4;
 }
 
 /* ---------------------------- My Navbar */
@@ -22,8 +29,24 @@ body {
     width: 100%;
 }
 
+.navbar a {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #ffb4e6;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
 .navbar .navbar-toggler {
     border: 0;
+}
+
+.navbar-toggler-icon {
+    color: #9eabcc;
 }
 
 .navbar-brand {
@@ -39,17 +62,18 @@ body {
 }
 
 .btn--brand {
-    color: black;
-    background-color: #fff59d;
-    border-color: #fff59d;
+    color: #FFF;
+    background-color: #9eabcc;
+    border-color: #9eabcc;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+.btn--brand:hover,
+.btn--brand:active,
+.btn--brand:focus,
+.btn--brand:active:focus {
+    background-color: #FFF;;
+    border-color: #FFF;;
+    color: #9eabcc;
 }
 
 /* ---------------------------- General Paddings, Margins & Text*/
@@ -59,7 +83,6 @@ body {
 
 /*--------------------------------------------------- Footer */
 footer {
-    color: black;
     min-height:120px;
     margin: 0;
 }
@@ -73,7 +96,5 @@ footer {
     list-style-type: none;
 }
 
-.footer-lists a {
-    color: black;
-    text-decoration: none;
-}
+
+

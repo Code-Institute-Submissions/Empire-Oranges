@@ -14,13 +14,15 @@
 		integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Empire Oranges - Fresh Oranges | Delivering from farm to table!</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header>
-		<!-- Nav Bar, Copied Nav Bar from CodeInstitute Whiskey Drop Mini project - 
-        seems to not be responding like i want it to and i'm going to attempt to redo it -->
-		<nav class="navbar navbar-dark bg-color-mynav navbar-fixed-top navbar-expand-sm">
+	<header> <!--navbar-dark-->
+		<!-- Nav Bar, a little copied from w3schools & bootstrap-->
+		<nav class="navbar bg-color-mynav navbar-fixed-top navbar-expand-sm">
 			<a href="index.html" class="navbar-brand">Empire Oranges</a>
 		
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -30,15 +32,15 @@
 		
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Valencia</a>
-							<a class="dropdown-item" href="#">Navel</a>
-							<a class="dropdown-item" href="#">Satsuma</a>
-							<a class="dropdown-item" href="#">More...</a>
+							<a class="dropdown-item" href="oranges.html">Valencia</a>
+							<a class="dropdown-item" href="oranges.html">Navel</a>
+							<a class="dropdown-item" href="oranges.html">Satsuma</a>
+							<a class="dropdown-item" href="oranges.html">More...</a>
 						</div>
 					</li>
 					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="signup.html">Sign Up</a></li>
@@ -66,9 +68,13 @@
 
     <!-- Benefits & Features -->
     <section class="container-fluid">
-        features & benefits of subscription service
-        3 headings + 3 paragraphs + 3 icons
-        sign up div at the bottom of the section
+        <div class="row">
+            <div class="col">
+                features & benefits of subscription service
+                3 headings + 3 paragraphs + 3 icons
+                sign up div at the bottom of the section
+            </div>
+        </div>
     </section >
     <!-- / Benefits & Features END -->
 
@@ -92,17 +98,17 @@
 			<div class="col-sm text-center d-sm-inline-block">
 				<h4 class="uppercase">Social</h4>
 				<ul class="footer-lists">
-					<li><a href="https://www.facebook.com">Facebook</a></li>
-					<li><a href="https://www.twitter.com">Twitter</a></li>
-					<li><a href="https://www.instagram.com">Instagram</a></li>
-					<li><a href="https://www.linkedin.com">Linked In</a></li>
+					<li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+					<li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+					<li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+					<li><a href="https://www.linkedin.com" target="_blank">Linked In</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm text-center">
 				<p>
-					C2020 Empire Oranges & Shamus Birch (link to my linked in), all rights reserved
+					C2020 <a href="index.html">Empire Oranges</a> & <a href="https://www.linkedin.com" target="_blank">Shamus Birch</a>, all rights reserved
 				</p>
 			</div>
 		</div>
@@ -119,8 +125,5 @@
 		</div>
 	</footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>

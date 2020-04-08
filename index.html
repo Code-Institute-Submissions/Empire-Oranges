@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> <!-- Standard Boilerplate from GitPod and CodeInstitute-->
+<head> <!-- Standard Boilerplate from GitPod and bootstrap css & js library, I have added my own css file-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,9 +20,9 @@
 </head>
 
 <body>
-	<header> <!--navbar-dark-->
+	<header> 
 		<!-- Nav Bar, a little copied from w3schools & bootstrap-->
-		<nav class="navbar bg-color-mynav navbar-fixed-top navbar-expand-sm">
+		<nav class="navbar navbar-dark bg-color-1 navbar-fixed-top navbar-expand-sm">
 			<a href="index.html" class="navbar-brand">Empire Oranges</a>
 		
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -32,18 +32,18 @@
 		
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item dropdown">
+					<li class="nav-item mr-2 text-center"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item dropdown text-center">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="oranges.html">Valencia</a>
-							<a class="dropdown-item" href="oranges.html">Navel</a>
-							<a class="dropdown-item" href="oranges.html">Satsuma</a>
-							<a class="dropdown-item" href="oranges.html">More...</a>
+							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Valencia</a>
+							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Navel</a>
+							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Satsuma</a>
+							<a class="dropdown-item text-center text-sm-left" href="oranges.html">More...</a>
 						</div>
 					</li>
-					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="signup.html">Sign Up</a></li>
+					<li class="nav-item mr-2 d-block d-sm-none text-center"><a class="nav-link" href="signup.html">Sign Up</a></li>
 				</ul>
 			</div>
 			<div class="d-none d-sm-block">
@@ -54,28 +54,75 @@
 
     </header>
     <!-- Big Hero Image and Hero Text -->
-    <section class="container-fluid">
+    <div class="container-fluid myhero-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
-            <div class="col">
-                <h1>HERO HEADER</h1>
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">
+                        The world's largest collection of fresh, ethically farmed oranges, 
+                        delivered to your kitchen table.
+                    </h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Sign up today and get your first month free. </p>                  
+                        <span class="d-inline d-sm-none"><br></span>
+                    <button class="btn btn-lg btn--cta btn--brand" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. You can cancel any time.</small></p>
+                </section>
             </div>
         </div>
-        hero section + hero image 
-        Jumbotron + text
-        sign up div at the bottom of the section
-    </section>
+        
+    </div>
+    
     <!-- / Hero END-->
 
     <!-- Benefits & Features -->
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col">
-                features & benefits of subscription service
-                3 headings + 3 paragraphs + 3 icons
-                sign up div at the bottom of the section
-            </div>
+    <div class="container-wrapper--red">
+        <div class="container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header text-center">
+                        <h2 class="text-uppercase">Subscription Benefits:</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <div class="feature">
+                            <h3><i class="fas fa-gift d-none d-sm-inline"></i> Time</h3>
+                            <p>
+                            The three minutes its takes you to sign up with Empire Oranges will save you hours of time
+                            browsing shopping isles, standing in queues, packing shopping bags, driving home, unpacking bags etc...
+                            When you could be sitting down and enjoying your fruit!
+                            </p>
+                            <p><a class="btn btn-sm btn-light" href="signup.html">Read More</a></p> 
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="feature">
+                            <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Money</h3>
+                            <p>
+                            With a monthly subscription beginning at £3.99 and added free international delivery, we guarantee you'll be 
+                            saving on your monthly household budget, or your money back.
+                            </p>        
+                            <p><a class="btn btn-sm btn-light" href="signup.html">Read More</a></p> 
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="feature">
+                            <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Choice</h3>
+                            <p>
+                            With the worlds largest international collection of ethically grown, green, environmentally friendly, 
+                            fresh oranges - you will never find yourself bored and wondering what to eat. When your first pack 
+                            arrives on your table, you won't believe your eyes.
+                            </p>
+                            <p><a class="btn btn-sm btn-light" href="signup.html">Read More</a></p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section >
+    </div>
     <!-- / Benefits & Features END -->
 
     <!-- <section class="container-fluid">
@@ -83,9 +130,9 @@
         3 quotes + 3 pics
         sign up div at the bottom of the section
     </section> -->
-	<footer class="container-fluid bg-color-myfooter">
+	<footer class="container-fluid bg-color-1">
 		<div id="my-footer-wrap" class="row">
-			<div class="col-sm text-center d-sm-inline-block">
+			<div class="col-sm text-center d-sm-inline-block col-md-6">
 				<h4 class="uppercase">Empire Oranges</h4>
 				<ul class="footer-lists">
 					<li><a href="index.html">Home</a></li>
@@ -95,7 +142,7 @@
 					<li><a href="signup.html">Sign Up</a></li>
 				</ul>
 			</div>
-			<div class="col-sm text-center d-sm-inline-block">
+			<div class="col-sm text-center d-sm-inline-block col-md-6">
 				<h4 class="uppercase">Social</h4>
 				<ul class="footer-lists">
 					<li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>

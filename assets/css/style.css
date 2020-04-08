@@ -3,7 +3,7 @@
 /* ---------------------------- General Body */
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffb4e6;
+    background-color: ;
     
 }
 
@@ -14,13 +14,30 @@ a {
 }
 
 /* ---------------------------- My Colours */
-.bg-color-mynav {
+.bg-color-1 { /* primary colour */
     background-color: #ff82b4;
 }
 
-.bg-color-myfooter {
-    background-color: #ff82b4;
+.bg-color-1a { /*primary colour - light */
+    background-color: #ffb4e6;
 }
+
+.bg-color-1b { /*primary colour - dark */
+    background-color: #c95184;
+}
+
+.bg-color-2 { /*secondary colour */
+    background-color: #cfddff;
+}
+
+.bg-color-2a { /*seconday colour - light */
+    background-color: #fff;
+}
+
+.bg-color-2b { /*secondary colour - dark */
+    background-color: #9eabcc;
+}
+
 
 /* ---------------------------- My Navbar */
 .navbar {
@@ -54,7 +71,7 @@ a {
 }
 
 
-/* ---------------------------- Buttons */
+/* ---------------------------- Buttons, took inspirtation from CodeInstitute Whiskey Drop tutorial */
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -81,9 +98,39 @@ a {
     text-transform: uppercase;
 }
 
+/* ---------------------------- Lines & Dividers */
+
+
+/* ---------------------------- My Hero section */
+.myhero-container {
+    height: 100vh; 
+    
+    background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* ---------------------------- My Benefits section */
+
+
+/* ---------------------------- Containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 /*--------------------------------------------------- Footer */
 footer {
     min-height:120px;
+    width: 100%;
     margin: 0;
 }
 
@@ -94,6 +141,8 @@ footer {
 
 .footer-lists {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 

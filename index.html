@@ -22,7 +22,7 @@
 <body>
 	<header> 
 		<!-- Nav Bar, a little copied from w3schools & bootstrap-->
-		<nav class="navbar navbar-dark bg-color-1 navbar-fixed-top navbar-expand-sm">
+		<nav class="navbar navbar-dark bg-color-1 sticky-top navbar-expand-sm">
 			<a href="index.html" class="navbar-brand">Empire Oranges</a>
 		
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -32,7 +32,7 @@
 		
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-2 text-center"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="active nav-item mr-2 text-center "><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item dropdown text-center">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
@@ -51,8 +51,8 @@
 			</div>
 		</nav>
 		<!-- /.Nav Bar END-->
-
     </header>
+
     <!-- Big Hero Image and Hero Text -->
     <div class="container-fluid myhero-container">
         <div class="opaque-overlay">&nbsp;</div>
@@ -77,7 +77,7 @@
     <!-- / Hero END-->
 
     <!-- Benefits & Features -->
-    <div class="container-wrapper--red">
+    <div class="benefits-wrapper--brand">
         <div class="container content-container">
             <section class="features">
                 <div class="row">
@@ -88,8 +88,8 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-sm-12">
-                        <div class="feature">
-                            <h3><i class="fas fa-gift d-none d-sm-inline"></i> Time</h3>
+                        <div class="benefit">
+                            <h3><i class="far fa-clock d-none d-sm-block"></i> Time</h3>
                             <p>
                             The three minutes its takes you to sign up with Empire Oranges will save you hours of time
                             browsing shopping isles, standing in queues, packing shopping bags, driving home, unpacking bags etc...
@@ -99,8 +99,8 @@
                         </div>
                     </div>
                     <div class="col-sm-12">
-                        <div class="feature">
-                            <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Money</h3>
+                        <div class="benefit">
+                            <h3><i class="fas fa-coins d-none d-sm-block"></i> Money</h3>
                             <p>
                             With a monthly subscription beginning at £3.99 and added free international delivery, we guarantee you'll be 
                             saving on your monthly household budget, or your money back.
@@ -109,8 +109,8 @@
                         </div>
                     </div>
                     <div class="col-sm-12">
-                        <div class="feature">
-                            <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Choice</h3>
+                        <div class="benefit">
+                            <h3><i class="fas fa-tasks d-none d-sm-block"></i> Choice</h3>
                             <p>
                             With the worlds largest international collection of ethically grown, green, environmentally friendly, 
                             fresh oranges - you will never find yourself bored and wondering what to eat. When your first pack 
@@ -130,6 +130,8 @@
         3 quotes + 3 pics
         sign up div at the bottom of the section
     </section> -->
+
+    <!-- Footer -->
 	<footer class="container-fluid bg-color-1">
 		<div id="my-footer-wrap" class="row">
 			<div class="col-sm text-center d-sm-inline-block col-md-6">
@@ -171,6 +173,7 @@
 			</div>
 		</div>
 	</footer>
+    <!-- /. Footer -->
 
     </body>
 </html>

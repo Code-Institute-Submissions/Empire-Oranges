@@ -105,7 +105,7 @@ a {
 .myhero-container {
     height: 100vh; /*this little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
     
-    background: url("../images/oranges-1.jpg") no-repeat bottom right fixed; 
+    background: url("../images/oranges-1.jpg") no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -159,5 +159,29 @@ footer {
     margin: 0;
 }
 
+/*--------------------------------------------------- Product Gallery */
+/*styling bellow inspired by CodeInstitute - Love Running Mini Project */
+#photo-gallery {
+  clear: both;
+  line-height: 0px;
+  column-count: 3;
+  column-gap: 0px;
+}
 
+#photo-gallery img {
+  width: 100%;
+}
 
+/*--------------------------------------------------- Media Queries */
+@media screen and (max-width: 900px) {
+
+ #photo-gallery {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 700px) {
+
+  #photo-gallery {
+    column-count: 1;
+  }
+}

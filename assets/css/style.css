@@ -7,6 +7,9 @@ body {
     
 }
 
+/* ---------------------------- General Headings */
+
+
 /* ---------------------------- My a links */
 a {
     color: black;
@@ -89,7 +92,7 @@ a {
 .btn--brand:focus,
 .btn--brand:active:focus {
     background-color: #FFF;;
-    border-color: #FFF;;
+    border-color: #9eabcc;;
     color: #9eabcc;
 }
 

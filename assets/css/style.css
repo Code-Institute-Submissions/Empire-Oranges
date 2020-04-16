@@ -188,3 +188,14 @@ footer {
     column-count: 1;
   }
 }
+
+/*--------------------------------------------------- Signup */
+
+.pricing-header {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
+
+.pricing-content {
+    font-family: "open+sans", sans-serif;
+}

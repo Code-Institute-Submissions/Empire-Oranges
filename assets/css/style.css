@@ -14,6 +14,10 @@ p {
     display: block;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* ---------------------------- General Headings */
 
 

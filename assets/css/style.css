@@ -14,7 +14,7 @@ body {
 
 /* ---------------------------- My a links */
 a {
-    color: #fff;
+    color: #fafafa;
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .navbar a {
-    color: #fff;
+    color: #fafafa;
 }
 
 .dropdown-menu {
@@ -64,20 +64,20 @@ a:hover {
 }
 
 .btn--brand {
-    color: #FFF;
+    color: #fafafa;
     background-color: #ffb757;
     border-color: #ffb757;
 }
 
 .btn--brand:hover,
 .btn--brand:active {
-    background-color: #fff;
+    background-color: #fafafa;
     border-color: #d24151;
     color: #d24151;
 }
 
 .btn--price {
-    color: #fff;
+    color: #fafafa;
     border-color: #d24151;
     background-color: #d24151;
 }
@@ -96,6 +96,13 @@ a:hover {
 
 /* ---------------------------- Lines & Dividers */
 .line-divider {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 0;
+}
+
+.line-divider--yellow {
     width: 80%;
     height: 1px;
     background-color: #ffb757;
@@ -142,7 +149,7 @@ a:hover {
 
 .benefits-wrapper--brand {
     background-color: #d24151;
-    color: white;
+    color: #fafafa;
 } 
 
 /* ---------------------------- Containers */
@@ -156,12 +163,13 @@ footer {
     min-height:120px;
     width: 100%;
     margin: 0;
-    color: #fff;
+    color: #fafafa;
 }
 
 footer p {
     margin: 10px;
     padding: 10px;
+    display: block;
 }
 
 .footer-header {
@@ -174,7 +182,7 @@ footer p {
 }
 
 #my-footer-wrap {
-    margin-top: 1px;
+    margin-top: 0;
     padding-top: 20px;
 }
 

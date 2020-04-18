@@ -97,7 +97,7 @@ a:hover {
 /* ---------------------------- Lines & Dividers */
 .line-divider {
     width: 80%;
-    height: 2px;
+    height: 1px;
     background-color: #ffb757;
     border: 0;
 }
@@ -120,12 +120,12 @@ a:hover {
 }
 
 .jumbotron {
-    background-color: #ffb75780;
+    background-color: #ffb757B3;
     text-align: center;
 }
 
 .jumbotron-header {
-    color: #FFF;
+    color: #Fafafa;
 }
 
 /* ---------------------------- My Benefits section */
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .benefits-wrapper--brand {
-    background-color: #f05f40;
+    background-color: #d24151;
     color: white;
 } 
 

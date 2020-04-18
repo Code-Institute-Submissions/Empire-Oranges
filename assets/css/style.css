@@ -4,6 +4,8 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: ;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -12,34 +14,22 @@ body {
 
 /* ---------------------------- My a links */
 a {
-    color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb757;
     text-decoration: none;
 }
 
 /* ---------------------------- My Colours */
-.bg-color-1 { /* primary colour */
-    background-color: #ff82b4;
+.bg-color-1 { /* orange - #e97253 */
+    background-color: #e97253;
 }
 
-.bg-color-1a { /*primary colour - light */
-    background-color: #ffb4e6;
-}
 
-.bg-color-1b { /*primary colour - dark */
-    background-color: #c95184;
-}
 
-.bg-color-2 { /*secondary colour */
-    background-color: #cfddff;
-}
-
-.bg-color-2a { /*seconday colour - light */
-    background-color: #fff;
-}
-
-.bg-color-2b { /*secondary colour - dark */
-    background-color: #9eabcc;
-}
 
 
 /* ---------------------------- My Navbar */
@@ -54,19 +44,11 @@ a {
 }
 
 .dropdown-menu {
-    background-color: #ffb4e6;
-}
-
-.dropdown-menu a {
-    color: black;
+    background-color: #e97253;
 }
 
 .navbar .navbar-toggler {
     border: 0;
-}
-
-.navbar-toggler-icon {
-    color: #9eabcc;
 }
 
 .navbar-brand {
@@ -83,17 +65,28 @@ a {
 
 .btn--brand {
     color: #FFF;
-    background-color: #9eabcc;
-    border-color: #9eabcc;
+    background-color: #ffb757;
+    border-color: #ffb757;
 }
 
 .btn--brand:hover,
-.btn--brand:active,
-.btn--brand:focus,
-.btn--brand:active:focus {
-    background-color: #FFF;;
-    border-color: #9eabcc;;
-    color: #9eabcc;
+.btn--brand:active {
+    background-color: #fff;
+    border-color: #d24151;
+    color: #d24151;
+}
+
+.btn--price {
+    color: #fff;
+    border-color: #d24151;
+    background-color: #d24151;
+}
+
+.btn--price:hover,
+.btn--price:active {
+    color: #d24151;
+    border-color: #ffb757;
+    background-color: #ffb757;
 }
 
 /* ---------------------------- General Paddings, Margins & Text*/
@@ -102,7 +95,12 @@ a {
 }
 
 /* ---------------------------- Lines & Dividers */
-
+.line-divider {
+    width: 80%;
+    height: 2px;
+    background-color: #ffb757;
+    border: 0;
+}
 
 /* ---------------------------- My Hero section */
 .myhero-container {
@@ -119,6 +117,15 @@ a {
     justify-content: center;
 
     position: relative;
+}
+
+.jumbotron {
+    background-color: #ffb75780;
+    text-align: center;
+}
+
+.jumbotron-header {
+    color: #FFF;
 }
 
 /* ---------------------------- My Benefits section */
@@ -149,10 +156,25 @@ footer {
     min-height:120px;
     width: 100%;
     margin: 0;
+    color: #fff;
+}
+
+footer p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-header {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-row-pad {
+    padding: 10px;
 }
 
 #my-footer-wrap {
-    margin-top: 0;
+    margin-top: 1px;
     padding-top: 20px;
 }
 
@@ -194,6 +216,13 @@ footer {
 .pricing-header {
     text-align: center;
     font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-header {
+    background-color: #ffb75780;
+    padding: 15px;
 }
 
 .pricing-content {

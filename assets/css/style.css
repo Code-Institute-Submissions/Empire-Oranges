@@ -3,7 +3,7 @@
 /* ---------------------------- General Body */
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #e97253B3;
+    background-color: #fbe9e7;
     margin: 0;
     padding: 0;
 }
@@ -210,6 +210,21 @@ footer p {
 .gallery-header {
     text-align: center;
     color: #fafafa;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.image-info {
+    display: block;
+    float: left;
+}
+
+.image-fluid {
+    float: left;
+}
+
+.image-header {
     font-family: "roboto", sans-serif;
     margin: 0;
     padding: 10px;

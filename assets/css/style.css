@@ -126,6 +126,15 @@ a:hover {
     position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .jumbotron {
     background-color: transparent;
     text-align: center;
@@ -140,7 +149,7 @@ a:hover {
     padding-top: 1rem;
 }
 /*--------------------------------------------------- Hero Section  - Media Queries */
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
 
     .myhero-container {
         height: 150vh;

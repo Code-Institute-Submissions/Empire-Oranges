@@ -142,6 +142,7 @@ a:hover {
 
 .jumbotron-header {
     color: #Fafafa;
+    display: block;
 }
 
 .small-jumbo {
@@ -149,7 +150,7 @@ a:hover {
     padding-top: 1rem;
 }
 /*--------------------------------------------------- Hero Section  - Media Queries */
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
     .myhero-container {
         height: 150vh;

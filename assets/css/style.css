@@ -216,11 +216,20 @@ footer p {
 
 /*--------------------------------------------------- Product Gallery */
 /*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
+.gallery-header {
+    text-align: center;
+    color: #fafafa;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
 #photo-gallery {
   clear: both;
   line-height: 0px;
   column-count: 3;
-  column-gap: 0px;
+  column-gap: 4px;
+  row-gap: 4px;
 }
 
 #photo-gallery img {

@@ -111,7 +111,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-/* ---------------------------- Lines & Dividers */
+/* ---------------------------- Line Dividers */
 .line-divider {
     width: 80%;
     height: 1px;
@@ -126,33 +126,51 @@ a:hover {
     border: 0;
 }
 
-/* ---------------------------- My Hero section */
+/* ---------------------------- Hero Section */
 .myhero-container {
-    height: 100vh; /*this little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
+     height: 100vh;
     
+    /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
     background: url("../images/oranges-1.jpg") no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* end */
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     position: relative;
+
+    padding: ;
 }
 
 .jumbotron {
     background-color: #ffb757B3;
     text-align: center;
+    margin-top: ;
+    padding: ;
 }
 
 .jumbotron-header {
     color: #Fafafa;
 }
 
-/* ---------------------------- My Benefits section */
+.small-jumbo {
+    color: #Fafafa;
+    padding-top: 1rem;
+}
+/*--------------------------------------------------- Hero Section  - Media Queries */
+@media screen and (max-width: 900px) {
+
+    .myhero-container {
+        height: 150vh;
+    }
+}
+
+/* ---------------------------- Benefits */
 .benefit {
     text-align: center;
     margin-bottom: 40px;
@@ -272,7 +290,7 @@ footer p {
 
 /*--------------------------------------------------- Signup - Pricing - Media */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     
     .card-deck {
         -webkit-box-orient: horizontal;
@@ -354,3 +372,11 @@ footer p {
   display: block;
 }
 
+/*--------------------------------------------------- Signup - Form - Media Queries */
+@media screen and (max-width: 576px) {
+
+    .signup-form {
+        max-width: 100%;
+    }
+
+}

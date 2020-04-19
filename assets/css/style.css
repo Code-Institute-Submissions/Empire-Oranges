@@ -228,8 +228,7 @@ footer p {
   clear: both;
   line-height: 0px;
   column-count: 3;
-  column-gap: 4px;
-  row-gap: 4px;
+  column-gap: 0;
 }
 
 #photo-gallery img {

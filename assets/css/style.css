@@ -64,8 +64,15 @@ a:hover {
     background-color: #e97253;
 }
 
-.dropdown-menu a:active {
-    background-color: #e9725380;
+.dropdown-item:hover {
+    background-color: #ffb757;
+    color: #fafafa;
+}
+
+.dropdown-item:active {
+    background-color: #fafafa;
+    color: #d24151;
+    border-color: #d24151;
 }
 
 .navbar .navbar-toggler {

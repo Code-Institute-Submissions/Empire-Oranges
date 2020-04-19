@@ -109,7 +109,7 @@ a:hover {
 
 /* ---------------------------- Hero Section */
 .myhero-container {
-     height: 100vh;
+    height: 100vh;
     
     /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
     background: url("../images/oranges-1.jpg") no-repeat bottom center fixed; 
@@ -124,11 +124,10 @@ a:hover {
     justify-content: center;
 
     position: relative;
-
 }
 
 .jumbotron {
-    background-color: #ffb757B3;
+    background-color: transparent;
     text-align: center;
 }
 

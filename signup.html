@@ -51,12 +51,12 @@
 		<!-- /.Nav Bar END-->
 	</header>
 
-	<!-- Sign up -->
-	<div class="container-fluid text-center">
-		<h1 class="pricing-header">Pricing</h1>
-
+	<!-- Prices -->
+	<div class="container-fluid text-center content-container">
+		<h2 class="pricing-header uppercase">Pricing</h2>
+        <hr class="line-divider">
 		<div class="container">
-			<!-- Sign up & prices (inspiration from bootstrap) -->
+			<!-- Prices (inspiration from bootstrap) -->
 			<div class="card-deck mb-3 text-center">
 				<div class="card mb-4 shadow-sm">
 					<div class="card-header">
@@ -67,12 +67,13 @@
 							<small class="text-muted">/ mo</small>
 						</h1>
 						<ul class="list-unstyled mt-3 mb-4">
-							<li>Fresh fruit for 1 month</li>
+							<li>Fresh fruit for 1st month</li>
 							<li>Free to choose your favourite types of oranges</li>
-							<li>Cancel anytime</li>
-                            <li></li>
+							<li>1 pack of oranges for 1st month</li>
+							<li>Free delivery</li>
+                            <li>Cancel anytime</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn--brand">Sign up for free</button>
+						<a href="#signup" class="btn btn-lg btn-block btn--brand">Sign up for free</a>
 					</div>
 				</div>
 				<div class="card mb-4 shadow-sm">
@@ -90,7 +91,7 @@
 							<li>Free delivery</li>
 							<li>Cancel anytime</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn--brand">Try today</button>
+						<a href="#signup" class="btn btn-lg btn-block btn--brand">Try today</a>
 					</div>
 				</div>
 				<div class="card mb-4 shadow-sm">
@@ -108,17 +109,39 @@
 							<li>Free delivery</li>
 							<li>Cancel anytime</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn--brand">Sign up now</button>
+						<a href="#signup" class="btn btn-lg btn-block btn--brand">Sign up now</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- /.Sign up -->
+	<!-- /. Prices -->
 
-    <!-- Divider -->
+    <!-- Divider -- (commented out as I was just seeing what it looked like)
     <hr class="line-divider--yellow">
-    <!-- /. Divider -->
+    <!- /. Divider -->
+
+	<!-- Sign up -->
+	<div class="container-fluid form-section content-container">
+		<div class="row">
+			<div class="col">
+				<h2 class="signup-header uppercase" id="signup">Sign Up</h2>
+                <hr class="line-divider">
+				<p class="signup-header-p">
+					It's quick and easy, simply fill in the form below to start your first month free subscription
+				</p>
+				<!-- form action taken from CodeInstitute Love Running Mini Project -->
+				<form action="https://formdump.codeinstitute.net/" method="Post" class="signup-form">
+					<label for="email">Email Address</label>
+					<input type="email" id="email" name="email_address" class="text-input" required>
+					<input type="submit" value="Sign Up!" class="join-button btn--brand">
+				</form>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- /. Sign up -->
 
     <!-- FAQ -->
     <div>

@@ -19,7 +19,15 @@ p {
 }
 
 /* ---------------------------- General Headings */
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: ;
+    margin: ;
+}
 
 /* ---------------------------- My a links */
 a {
@@ -163,8 +171,8 @@ a:hover {
 
 /* ---------------------------- Containers */
 .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /*--------------------------------------------------- Footer */
@@ -202,7 +210,7 @@ footer p {
 }
 
 /*--------------------------------------------------- Product Gallery */
-/*styling bellow inspired by CodeInstitute - Love Running Mini Project */
+/*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
 #photo-gallery {
   clear: both;
   line-height: 0px;
@@ -214,7 +222,7 @@ footer p {
   width: 100%;
 }
 
-/*--------------------------------------------------- Media Queries */
+/*--------------------------------------------------- Product Gallery - Media Queries */
 @media screen and (max-width: 900px) {
 
  #photo-gallery {
@@ -228,10 +236,11 @@ footer p {
   }
 }
 
-/*--------------------------------------------------- Signup */
-
+/*--------------------------------------------------- Signup - Pricing */
+/*some of the styling bellow inspired by Bootstrap - Pricing Example */
 .pricing-header {
     text-align: center;
+    color: #fafafa;
     font-family: "roboto", sans-serif;
     margin: 0;
     padding: 10px;
@@ -245,3 +254,103 @@ footer p {
 .pricing-content {
     font-family: "open+sans", sans-serif;
 }
+
+.card-deck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.card-deck .card {
+    min-width: 220px;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*--------------------------------------------------- Signup - Pricing - Media */
+/*some of the styling bellow inspired by Bootstrap - Pricing Example */
+@media (min-width: 576px) {
+    
+    .card-deck {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .card-deck .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    }
+}
+
+/*--------------------------------------------------- Signup - Form */
+/*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
+.form-section {
+    background-color: #d24151;
+    color: #fafafa;
+}
+
+.signup-header {
+    text-align: center;
+    color: #fafafa;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.signup-header-p {
+    text-align: center;
+}
+
+.signup-form {
+  color: #fafafa;
+  background-color: #ffb75780;
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #ffb757;
+}
+
+.join-button {
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  display: block;
+}
+

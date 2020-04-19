@@ -19,15 +19,7 @@ p {
 }
 
 /* ---------------------------- General Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding: ;
-    margin: ;
-}
+
 
 /* ---------------------------- My a links */
 a {
@@ -104,19 +96,6 @@ a:hover {
     color: #d24151;
 }
 
-.btn--price {
-    color: #fafafa;
-    border-color: #d24151;
-    background-color: #d24151;
-}
-
-.btn--price:hover,
-.btn--price:active {
-    color: #d24151;
-    border-color: #ffb757;
-    background-color: #ffb757;
-}
-
 /* ---------------------------- General Paddings, Margins & Text*/
 .uppercase {
     text-transform: uppercase;
@@ -155,14 +134,11 @@ a:hover {
 
     position: relative;
 
-    padding: ;
 }
 
 .jumbotron {
     background-color: #ffb757B3;
     text-align: center;
-    margin-top: ;
-    padding: ;
 }
 
 .jumbotron-header {

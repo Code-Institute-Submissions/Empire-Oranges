@@ -6,7 +6,6 @@ body {
     background-color: #e97253B3;
     margin: 0;
     padding: 0;
-    
 }
 
 p {
@@ -17,9 +16,6 @@ p {
 * {
   box-sizing: border-box;
 }
-
-/* ---------------------------- General Headings */
-
 
 /* ---------------------------- My a links */
 a {
@@ -36,10 +32,6 @@ a:hover {
 .bg-color-1 { /* orange - #e97253 */
     background-color: #e97253;
 }
-
-
-
-
 
 /* ---------------------------- My Navbar */
 .navbar {
@@ -74,7 +66,6 @@ a:hover {
 .navbar-brand {
     font-weight: bold;
 }
-
 
 /* ---------------------------- Buttons, took inspirtation from CodeInstitute Whiskey Drop tutorial */
 .btn--cta {
@@ -242,6 +233,7 @@ footer p {
     column-count: 2;
   }
 }
+
 @media screen and (max-width: 700px) {
 
   #photo-gallery {

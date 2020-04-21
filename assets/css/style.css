@@ -169,6 +169,12 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.benefits-header {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .benefit i {
     margin-bottom: 20px;
     font-size: 45px;

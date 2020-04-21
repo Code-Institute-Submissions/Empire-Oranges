@@ -150,6 +150,9 @@ a:hover {
 
 .jumbotron-header {
     display: block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .small-jumbo {
@@ -233,7 +236,8 @@ footer p {
     color: black;
     font-family: "roboto", sans-serif;
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .image-info {

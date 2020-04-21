@@ -262,7 +262,8 @@ footer p {
     text-align: center;
     font-family: "roboto", sans-serif;
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pricing-wrapper {
@@ -334,24 +335,28 @@ footer p {
     font-family: "roboto", sans-serif;
     margin: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .signup-header-p {
     text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .signup-form {
   color: #fafafa;
   background-color: #d24151;
-  max-width: 40%;
-  margin: 0 auto;
-  padding: 30px;
+  max-width: 50%;
+  margin: 40px auto;
+  padding: 40px;
 }
 
+/*
 .signup-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
-}
+} */
 
 .text-input {
   width: 100%;
@@ -362,7 +367,8 @@ footer p {
 }
 
 .text-input:hover {
-  border-color: #ffb757;
+  border-color: #ffffff;
+  background-color: #fafafa;
 }
 
 .join-button {

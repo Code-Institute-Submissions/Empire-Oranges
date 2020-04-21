@@ -100,7 +100,13 @@ a:hover {
     border: 0;
 }
 
-.line-divider--yellow {
+.line-divider-wh {
+    width: 80%;
+    height: 1px;
+    background-color: #ffffff80;
+}
+
+.line-divider-yw {
     width: 80%;
     height: 1px;
     background-color: #ffb757;

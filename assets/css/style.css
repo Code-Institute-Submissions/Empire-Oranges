@@ -138,15 +138,14 @@ a:hover {
 .jumbotron {
     background-color: transparent;
     text-align: center;
+    color: #fafafa;
 }
 
 .jumbotron-header {
-    color: #Fafafa;
     display: block;
 }
 
 .small-jumbo {
-    color: #Fafafa;
     padding-top: 1rem;
 }
 /*--------------------------------------------------- Hero Section  - Media Queries */

@@ -265,17 +265,6 @@ footer p {
     padding: 10px;
 }
 
-#photo-gallery {
-  clear: both;
-  line-height: 0px;
-  column-count: 3;
-  column-gap: 0;
-}
-
-#photo-gallery img {
-  width: 100%;
-}
-
 /*--------------------------------------------------- Signup - Pricing */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
 .pricing-header {

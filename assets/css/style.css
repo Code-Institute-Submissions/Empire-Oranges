@@ -269,10 +269,13 @@ footer p {
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
 .pricing-header {
     text-align: center;
-    color: #fafafa;
     font-family: "roboto", sans-serif;
     margin: 0;
     padding: 10px;
+}
+
+.pricing-wrapper {
+    background-color: #e97253;
 }
 
 .card-header {

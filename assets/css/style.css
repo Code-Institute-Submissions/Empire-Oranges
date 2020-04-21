@@ -114,6 +114,14 @@ a:hover {
     border: 0;
 }
 
+.line-divider-ft {
+    width: 40%;
+    height: 1px;
+    background-color: #ffffff80;
+    border: 0;
+    margin-top: 0;
+}
+
 /* ---------------------------- Hero Section */
 .myhero-container {
     height: 100vh;
@@ -210,8 +218,9 @@ footer p {
 }
 
 .footer-header {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-row-pad {
@@ -227,6 +236,7 @@ footer p {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 /*--------------------------------------------------- Product Gallery */

@@ -359,6 +359,7 @@ footer p {
   max-width: 50%;
   margin: 40px auto;
   padding: 40px;
+  border-radius: .25rem;
 }
 
 /*

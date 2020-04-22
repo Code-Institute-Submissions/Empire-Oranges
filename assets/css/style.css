@@ -300,7 +300,11 @@ footer p {
 
 .card-deck .card {
     min-width: 220px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*--------------------------------------------------- Signup - Pricing - Media */
@@ -360,6 +364,8 @@ footer p {
   margin: 40px auto;
   padding: 40px;
   border-radius: .25rem;
+  border: 1px solid rgba(0,0,0,.25);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 /*

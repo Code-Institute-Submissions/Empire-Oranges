@@ -270,8 +270,8 @@ footer p {
 
 .gallery-header-p {
     text-align: center;
-    margin: 0;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .gallery-container {
@@ -394,8 +394,8 @@ footer p {
 
 .signup-header-p {
     text-align: center;
-    margin: 0;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .signup-form {

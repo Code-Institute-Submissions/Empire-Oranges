@@ -259,6 +259,7 @@ footer p {
 .image-info {
     display: block;
     float: left;
+    margin-bottom: 40px;
 }
 
 .image-fluid {

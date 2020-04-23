@@ -129,7 +129,7 @@ a:hover {
     height: 100vh;
     
     /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
-    background: url("../images/oranges-1.jpg") no-repeat bottom center fixed; 
+    background: url("../images/hero-oranges.jpg") no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

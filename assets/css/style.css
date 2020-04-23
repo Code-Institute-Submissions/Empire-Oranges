@@ -90,6 +90,10 @@ a:hover {
     border-radius: .3rem;
 } 
 
+.btn--gallery {
+    margin-top: 4px;
+}
+
 .btn--brand {
     color: #fafafa;
     background-color: #ffb757;
@@ -286,7 +290,6 @@ footer p {
 
 .image-info {
     border: 1px solid rgba(0,0,0,0.25);
-    padding: 10px;
     background-color: #fafafa;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);

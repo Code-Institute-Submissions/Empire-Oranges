@@ -31,18 +31,15 @@
 					<li class="nav-item dropdown text-center">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
-						<div class="dropdown-menu d-none d-sm-block" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Valencia</a>
-							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Navel</a>
-							<a class="dropdown-item text-center text-sm-left" href="oranges.html">Satsuma</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!-- I want the nav bar to present more direct links on mobile screen -->
+							<a class="dropdown-item text-center text-sm-left d-none d-sm-block" href="oranges.html">Valencia</a>
+                            <a class="dropdown-item text-center text-sm-left d-block d-sm-none" href="oranges.html#valencia">Valencia</a>
+							<a class="dropdown-item text-center text-sm-left d-none d-sm-block" href="oranges.html">Navel</a>
+                            <a class="dropdown-item text-center text-sm-left d-block d-sm-none" href="oranges.html#navel">Navel</a>
+							<a class="dropdown-item text-center text-sm-left d-none d-sm-block" href="oranges.html">Satsuma</a>
+                            <a class="dropdown-item text-center text-sm-left d-block d-sm-none" href="oranges.html#satsuma">Satsuma</a>
 							<a class="dropdown-item text-center text-sm-left" href="oranges.html">More...</a>
 						</div>
-                        <div class="dropdown-menu d-block d-sm-none" aria-labelledby="navbarDropdownMenuLink"> <!-- I want the nav bar to present more direct links on mobile screen -->
-                            <a class="dropdown-item text-center text-sm-left" href="oranges.html#valencia">Valencia</a>
-                            <a class="dropdown-item text-center text-sm-left" href="oranges.html#navel">Navel</a>
-                            <a class="dropdown-item text-center text-sm-left" href="oranges.html#satsuma">Satsuma</a>
-                            <a class="dropdown-item text-center text-sm-left" href="oranges.html">More...</a>
-                        </div>
 					</li>
 					<li class="nav-item mr-2 d-block d-sm-none text-center"><a class="nav-link" href="signup.html">Sign
 							Up</a></li>

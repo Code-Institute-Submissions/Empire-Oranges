@@ -81,7 +81,9 @@ a:hover {
 }
 
 .btn--brand:hover,
-.btn--brand:active {
+.btn--brand:active,
+.btn--brand:focus,
+.btn--brand:active:focus {
     background-color: #fafafa;
     border-color: #d24151;
     color: #d24151;

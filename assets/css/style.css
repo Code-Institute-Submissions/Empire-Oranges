@@ -493,8 +493,14 @@ footer p {
     margin-bottom: 20px;
 }
 
+.faq-qa i {
+    vertical-align: super;
+}
+
 .faq-ans {
-    padding-left: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 20px;
 }
 }
     

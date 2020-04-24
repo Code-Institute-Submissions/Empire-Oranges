@@ -33,12 +33,11 @@ a:hover {
     background-color: #e97253;
 }
 
-/* ---------------------------- My Navbar */
+/* ---------------------------- Navbar */
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-
 }
 
 .navbar a {
@@ -178,7 +177,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 

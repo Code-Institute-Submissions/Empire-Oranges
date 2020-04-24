@@ -41,11 +41,12 @@ a:hover {
 }
 
 
-.navbar a {
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
 } 
 
-.navbar a:hover {
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
     color: rgba(255,255,255, 0.6);
 } 
 
@@ -64,19 +65,24 @@ a:hover {
 
 .dropdown-menu {
     background-color: #e97253;
+    color: #fff;
     min-width: 0;
     border: 0;   
 }
 
+.dropdown-menu a {
+    background-color: #e97253;
+    color: #fff;
+}
+
 .dropdown-item:hover {
-    background-color: #ffb757;
-    color: #fafafa;
+    background-color: #e97253;
+    color: rgba(255,255,255, 0.6);
 }
 
 .dropdown-item:active {
-    background-color: #fafafa;
-    color: #d24151;
-    border-color: #d24151;
+    background-color: #e97253;
+    color: rgba(255,255,255, 0.6);
 }
 
 .navbar .navbar-toggler {
@@ -116,7 +122,7 @@ a:hover {
 }
 
 .btn--brand {
-    color: #fafafa;
+    color: #fff;
     background-color: #ffb757;
     border-color: #ffb757;
 }
@@ -125,9 +131,9 @@ a:hover {
 .btn--brand:active,
 .btn--brand:focus,
 .btn--brand:active:focus {
-    background-color: #fafafa;
-    border-color: #d24151;
-    color: #d24151;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.6);
+    border-color: rgba(0,0,0, 0.6);
 }
 
 /* ---------------------------- General Paddings, Margins & Text*/

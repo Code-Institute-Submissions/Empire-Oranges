@@ -243,15 +243,15 @@ a:hover {
 
 /*--------------------------------------------------- Footer */
 footer {
-    min-height:120px;
-    width: 100%;
+    height: 33%;
     margin: 0;
     color: #fff;
 }
 
 footer p {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: block;
 }
 
@@ -267,7 +267,9 @@ footer p {
 
 #my-footer-wrap {
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 .footer-lists {
@@ -275,6 +277,14 @@ footer p {
     padding: 0;
     margin: 0;
     padding-bottom: 10px;
+}
+
+.footer-bottom {
+    margin: 0 auto;
+}
+
+.footer-bottom div {
+    margin: 0 auto;
 }
 
 /*--------------------------------------------------- Product Gallery */

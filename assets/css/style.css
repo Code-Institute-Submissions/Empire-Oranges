@@ -196,13 +196,14 @@ a:hover {
 .jumbotron-header {
     display: block;
     margin: 0;
-    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2rem;
 }
 
 .small-jumbo {
-    padding-top: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 /* ---------------------------- Benefits */

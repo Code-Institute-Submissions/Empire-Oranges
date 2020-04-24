@@ -222,6 +222,10 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.benefit-display {
+    margin: 0 auto;
+}
+
 .benefits-header {
     text-align: center;
     font-family: "roboto", sans-serif;
@@ -493,6 +497,10 @@ footer p {
     margin-bottom: 20px;
 }
 
+.faq-qa h2 {
+    font-size: 1.5rem;
+}
+
 .faq-qa i {
     vertical-align: super;
 }
@@ -501,6 +509,12 @@ footer p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-left: 20px;
+    font-size: 1rem;
 }
+
+/*--------------------------------------------------- FAQ - Media Queries */
+@media screen and (min-width: 576px) {
+    .faq-ans {
+        padding-left: 0;
+    }
 }
-    

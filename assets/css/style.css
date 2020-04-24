@@ -160,7 +160,7 @@ a:hover {
 
 /* ---------------------------- Hero Section */
 .myhero-container {
-    height: 100vh;
+    height: 33%;
     
     /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
     background: url("../images/Hero-Oranges.jpg") no-repeat bottom center fixed; 

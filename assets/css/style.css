@@ -134,13 +134,12 @@ a:hover {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.25);
     border: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .line-divider-wh {
-    width: 80%;
-    height: 1px;
     background-color: #ffffff80;
-    border: 0;
 }
 
 .line-divider-yw {

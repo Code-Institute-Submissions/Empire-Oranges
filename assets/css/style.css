@@ -513,7 +513,7 @@ footer p {
 }
 
 /*--------------------------------------------------- FAQ - Media Queries */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .faq-ans {
         padding-left: 0;
     }

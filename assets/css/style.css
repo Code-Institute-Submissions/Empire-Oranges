@@ -50,19 +50,6 @@ a:hover {
     color: rgba(255,255,255, 0.6);
 } 
 
-/*
-.nav-underline {
-    border-bottom: 1px solid rgba(255,255,255,.0);
-} 
-
-.nav-underline:hover,
-.nav-underline:active,
-.nav-underline:focus,
-.nav-underline:active:focus  {
-    text-decoration: underline !important;
-    text-underline-position: under !important;
-} */
-
 .dropdown-menu {
     background-color: #e97253;
     color: #fff;

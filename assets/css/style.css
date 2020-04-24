@@ -202,14 +202,6 @@ a:hover {
     padding-top: 1rem;
 }
 
-/*--------------------------------------------------- Hero Section  - Media Queries */
-@media screen and (max-width: 900px) {
-
-    .myhero-container {
-        height: 150vh;
-    }
-}
-
 /* ---------------------------- Benefits */
 .benefit {
     text-align: center;

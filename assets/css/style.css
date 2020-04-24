@@ -132,8 +132,8 @@ a:hover {
 .btn--brand:focus,
 .btn--brand:active:focus {
     color: #fff;
-    background-color: rgba(0,0,0, 0.6);
-    border-color: rgba(0,0,0, 0.6);
+    background-color: #E6A44E;
+    border-color: #E6A44E;
 }
 
 /* ---------------------------- General Paddings, Margins & Text*/

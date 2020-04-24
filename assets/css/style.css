@@ -46,6 +46,8 @@ a:hover {
 
 .dropdown-menu {
     background-color: #e97253;
+    min-width: 0;
+    
 }
 
 .dropdown-item:hover {

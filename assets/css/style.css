@@ -188,7 +188,9 @@ a:hover {
 .jumbotron {
     background-color: transparent;
     text-align: center;
-    color: #fafafa;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .jumbotron-header {
@@ -196,6 +198,7 @@ a:hover {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 2rem;
 }
 
 .small-jumbo {
@@ -229,7 +232,15 @@ a:hover {
 .benefits-wrapper--brand {
     background-color: #fbe9e7;
     color: black;
+    height: 33%;
 } 
+
+.features {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
 
 /* ---------------------------- Containers */
 .content-container {

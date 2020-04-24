@@ -17,7 +17,7 @@ p {
   box-sizing: border-box;
 }
 
-/* ---------------------------- My a links */
+/* ---------------------------- Anchor links */
 a {
     color: #fafafa;
     text-decoration: none;
@@ -28,7 +28,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* ---------------------------- My Colours */
+/* ---------------------------- Colours */
 .bg-color-1 { /* orange - #e97253 */
     background-color: #e97253;
 }
@@ -50,16 +50,17 @@ a:hover {
 
 .nav-underline:hover,
 .nav-underline:active {
-    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-bottom: 1px solid #ffb757;
 }
 
 .active {
-    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-bottom: 1px solid #ffb757;
 }
 
 .dropdown-menu {
     background-color: #e97253;
-    min-width: 0;   
+    min-width: 0;
+    border: 0;   
 }
 
 .dropdown-menu a {
@@ -205,6 +206,7 @@ a:hover {
 .small-jumbo {
     padding-top: 1rem;
 }
+
 /*--------------------------------------------------- Hero Section  - Media Queries */
 @media screen and (max-width: 900px) {
 
@@ -373,7 +375,7 @@ footer p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------- Signup - Pricing - Media */
+/*--------------------------------------------------- Signup - Pricing - Media Queries */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
 @media screen and (min-width: 576px) {
     

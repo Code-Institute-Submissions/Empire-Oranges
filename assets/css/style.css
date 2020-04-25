@@ -325,8 +325,13 @@ footer p {
     border-radius: 3px;
 }
 
+.image-resize {
+  height: 380px;
+  object-fit: cover;
+}
+
 .image-fluid {
-    float: left;
+    height: 380px;
 }
 
 .image-header {

@@ -330,10 +330,6 @@ footer p {
   object-fit: cover;
 }
 
-.image-fluid {
-    height: 380px;
-}
-
 .image-header {
     font-family: "roboto", sans-serif;
     margin: 0;

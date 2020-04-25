@@ -255,7 +255,6 @@ footer {
 
 footer p {
     margin: 0 auto;
-    padding-top: 10px;
     padding-bottom: 10px;
     display: block;
 }
@@ -273,27 +272,64 @@ footer p {
 #my-footer-wrap {
     margin-top: 0;
     padding-top: 15px;
-    padding-bottom: 15px;
     text-align: center;
 }
 
 .footer-lists {
     list-style-type: none;
+    display: inline-flex;
+    display: -moz-inline-box;
     padding: 0;
     margin: 0;
     padding-bottom: 10px;
+}
+
+.footer-lists li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#footer-nav {
+    margin: 0 auto;
+}
+
+#footer-social {
+
+}
+
+#social-icons {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .footer-bottom {
     margin: 0 auto;
 }
 
-.footer-bottom div {
-    margin: 0 auto;
+#footer-logo {
+    text-align: left;
 }
 
+#credit {
+    padding-bottom: 10px;
+}
+
+/*--------------------------------------------------- Footer - Media Queries */
+@media screen and (min-width: 768px) {
+
+    #footer-social {
+        text-align: right;
+    }
+
+    #credit {
+        padding-top: 10px;
+}
+}
+
+
 /*--------------------------------------------------- Product Gallery */
-/*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
 .gallery-header {
     color: black;
     font-family: "roboto", sans-serif;
@@ -532,6 +568,7 @@ footer p {
 
 /*--------------------------------------------------- FAQ - Media Queries */
 @media screen and (max-width: 576px) {
+    
     .faq-ans {
         padding-left: 0;
     }

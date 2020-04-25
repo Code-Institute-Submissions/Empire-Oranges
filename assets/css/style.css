@@ -371,6 +371,13 @@ footer p {
     border-radius: 3px;
 }
 
+.image-info p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .image-resize {
   height: 380px;
   object-fit: cover;

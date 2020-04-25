@@ -319,6 +319,11 @@ footer p {
     padding: 10px;
 }
 
+.image-info:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 .image-info img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0,0,0,0.25);
@@ -328,6 +333,7 @@ footer p {
 .image-resize {
   height: 380px;
   object-fit: cover;
+  object-position: center center;
 }
 
 .image-header {

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 /* =================================================== General Body */
+
 body {
     font-family: "Open+Sans", sans-serif;
     background-color: #fbe9e7;
@@ -9,30 +10,37 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
     list-style-type: none;
 }
 
+
 /* =================================================== Anchor links */
+
 a {
     color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
+
 /* =================================================== Colours */
-.bg-color-1 { /* orange - #e97253 */
+
+.bg-color-1 {
+    /* orange - #e97253 */
     background-color: #e97253;
 }
 
+
 /* =================================================== Headings */
+
 h1,
 h2,
 h3,
@@ -52,34 +60,35 @@ h2 {
     padding-top: 20px;
     text-transform: uppercase;
 }
- 
+
 h3,
 h6 {
     padding: 10px;
 }
 
+
 /* =================================================== Navbar */
+
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-} 
+}
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:active {
-    color: rgba(255,255,255, 0.6);
-} 
+    color: rgba(255, 255, 255, 0.6);
+}
 
 .dropdown-menu {
     background-color: #e97253;
     color: #fff;
     min-width: 0;
-    border: 0; 
+    border: 0;
 }
 
 .dropdown-menu a {
@@ -89,12 +98,12 @@ h6 {
 
 .dropdown-item:hover {
     background-color: #e97253;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .dropdown-item:active {
     background-color: #e97253;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .navbar .navbar-toggler {
@@ -105,8 +114,12 @@ h6 {
     font-weight: bold;
 }
 
-/* =================================================== Buttons*/ 
+
+/* =================================================== Buttons*/
+
+
 /* I was inspired by the CodeInstitute Whiskey Drop tutorial */
+
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -120,7 +133,7 @@ h6 {
     font-size: 18px;
     line-height: 1.5;
     border-radius: .3rem;
-} 
+}
 
 .btn--brand {
     color: #fff;
@@ -137,7 +150,9 @@ h6 {
     border-color: #E6A44E;
 }
 
+
 /* =================================================== Line Dividers */
+
 .line-divider {
     width: 80%;
     height: 1px;
@@ -159,18 +174,18 @@ h6 {
     margin-top: 0;
 }
 
+
 /* =================================================== Hero Section */
+
 .hero-container {
     height: 33%;
-    
     /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
-    background: url("../images/Oranges-Bg-Hero.jpg") no-repeat bottom center fixed; 
+    background: url("../images/Oranges-Bg-Hero.jpg") no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     /* end */
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +210,7 @@ h6 {
 }
 
 .jumbotron img {
-    width: 200px; 
+    width: 200px;
     height: 200px;
     vertical-align: middle;
     border-style: none;
@@ -221,14 +236,16 @@ h6 {
     text-shadow: 2px 2px 3px black;
 }
 
+
 /* =================================================== Benefits */
+
 .benefits-wrapper--brand {
     text-align: center;
     background-color: #fff;
     color: black;
     height: 33%;
     box-shadow: 0 3px 5px black inset;
-} 
+}
 
 .benefit {
     margin-bottom: 40px;
@@ -252,7 +269,9 @@ h6 {
     text-align: center;
 }
 
+
 /*=================================================== Footer */
+
 .footer-wrap {
     background-color: #e97253;
     margin-top: 0;
@@ -308,18 +327,21 @@ footer p {
     padding-bottom: 10px;
 }
 
+
 /*=================================================== Footer - Media Queries */
+
 @media screen and (min-width: 768px) {
     #footer-social {
         text-align: right;
     }
-
     #credit {
         padding-top: 10px;
     }
 }
 
+
 /*=================================================== Product Gallery */
+
 .gallery-wrapper {
     height: 66%;
     padding-top: 15px;
@@ -334,7 +356,7 @@ footer p {
 
 .image-info {
     background-color: #fafafa;
-    border: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
@@ -348,7 +370,7 @@ footer p {
 
 .image-info img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
 }
 
@@ -371,7 +393,9 @@ footer p {
     margin: 0 auto
 }
 
+
 /*=================================================== More Section */
+
 .more-oranges {
     height: 33%;
     background-color: #fff;
@@ -384,7 +408,9 @@ footer p {
     margin: 0 auto;
 }
 
+
 /*=================================================== Mini Gallery */
+
 .mini-resize {
     object-fit: cover;
     object-position: center center;
@@ -396,7 +422,7 @@ footer p {
 
 .mini-info img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
 }
 
@@ -404,8 +430,12 @@ footer p {
     margin: 0 auto;
 }
 
+
 /*=================================================== Signup - Pricing */
+
+
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
+
 .pricing-wrapper {
     text-align: center;
     padding-top: 15px;
@@ -414,18 +444,19 @@ footer p {
 
 .price-info {
     background-color: #fafafa;
-    border: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    max-width:100%;
+    max-width: 100%;
 }
+
 .price-info h3 {
-    background-color: #ffb75780; 
+    background-color: #ffb75780;
 }
 
 .price-header {
-    max-width:100%;
+    max-width: 100%;
     padding: 15px;
 }
 
@@ -468,10 +499,13 @@ footer p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 /*=================================================== Signup - Pricing - Media Queries */
+
+
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
+
 @media screen and (min-width: 576px) {
-    
     .card-deck {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -480,7 +514,6 @@ footer p {
         margin-right: -15px;
         margin-left: -15px;
     }
-
     .card-deck .card {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -498,8 +531,12 @@ footer p {
     }
 }
 
+
 /*=================================================== Signup - Form */
+
+
 /*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
+
 .signupform-wrapper {
     background-color: #fbe9e7;
     text-align: center;
@@ -520,7 +557,7 @@ footer p {
     margin: 40px auto;
     padding: 1.25rem;
     border-radius: .25rem;
-    border: 1px solid rgba(0,0,0,.25);
+    border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     background-clip: border-box;
 }
@@ -542,16 +579,18 @@ footer p {
     background-color: #fff;
 }
 
-/*=================================================== Signup - Form - Media Queries */
-@media screen and (max-width: 576px) {
 
+/*=================================================== Signup - Form - Media Queries */
+
+@media screen and (max-width: 576px) {
     .signup-form {
         max-width: 100%;
     }
-
 }
 
+
 /*=================================================== FAQ */
+
 .faq-wrap {
     background-color: #fff;
     padding-top: 15px;

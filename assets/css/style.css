@@ -280,7 +280,6 @@ footer p {
 
 .footer-lists li {
     padding-right: 10px;
-    padding-left: 10px;
 }
 
 #footer-nav {
@@ -378,6 +377,8 @@ footer p {
     padding: 10px;
 }
 
+#valencia,
+#navel,
 #satsuma {
     margin: 0 auto
 }
@@ -403,6 +404,12 @@ footer p {
 
 .mini-info {
     margin-bottom: 10px;
+}
+
+.mini-info img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 3px;
 }
 
 #blood {
@@ -559,26 +566,32 @@ footer p {
 
 .faq-box {
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .faq-qa {
-    display: inline-block;
+    display: inline-flex;
     background-color: #fafafa;
 }
 
 .faq-qa h2 {
     display: inline;
-    border-left: 2px solid #e97253;
-    color: #e97253;
+    border-left: 2px solid #ffb757;
+    color: #ffb757;
     padding-left: 10px;
 }
 
-.faq-qa h4 {
+.faq-qa p {
     display: inline;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0;
 }
 
 .faq-ans {
     font-size: 1rem;
+    display: inline-flex;
 }
 
 .faq-ans h2 {
@@ -590,4 +603,7 @@ footer p {
 
 .faq-ans p {
     display: inline;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
-/* ---------------------------- General Body */
+/* =================================================== General Body */
 body {
     font-family: "Open+Sans", sans-serif;
     background-color: #fbe9e7;
@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 
-/* ---------------------------- Anchor links */
+/* =================================================== Anchor links */
 a {
     color: #fff;
     text-decoration: none;
@@ -23,12 +23,12 @@ a:hover {
     text-decoration: none;
 }
 
-/* ---------------------------- Colours */
+/* =================================================== Colours */
 .bg-color-1 { /* orange - #e97253 */
     background-color: #e97253;
 }
 
-/* ---------------------------- Headings */
+/* =================================================== Headings */
 h1,
 h2,
 h3,
@@ -54,7 +54,7 @@ h6 {
     padding: 10px;
 }
 
-/* ---------------------------- Navbar */
+/* =================================================== Navbar */
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -101,7 +101,8 @@ h6 {
     font-weight: bold;
 }
 
-/* ---------------------------- Buttons, took inspirtation from CodeInstitute Whiskey Drop tutorial */
+/* =================================================== Buttons*/ 
+/* I was inspired by the CodeInstitute Whiskey Drop tutorial */
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -132,7 +133,7 @@ h6 {
     border-color: #E6A44E;
 }
 
-/* ---------------------------- Line Dividers */
+/* =================================================== Line Dividers */
 .line-divider {
     width: 80%;
     height: 1px;
@@ -154,7 +155,7 @@ h6 {
     margin-top: 0;
 }
 
-/* ---------------------------- Hero Section */
+/* =================================================== Hero Section */
 .hero-container {
     height: 33%;
     
@@ -209,7 +210,7 @@ h6 {
     text-shadow: 2px 2px 3px black;
 }
 
-/* ---------------------------- Benefits */
+/* =================================================== Benefits */
 .benefits-wrapper--brand {
     text-align: center;
     background-color: #fff;
@@ -240,7 +241,7 @@ h6 {
     text-align: center;
 }
 
-/*--------------------------------------------------- Footer */
+/*=================================================== Footer */
 .footer-wrap {
     background-color: #e97253;
     margin-top: 0;
@@ -297,7 +298,7 @@ footer p {
     padding-bottom: 10px;
 }
 
-/*--------------------------------------------------- Footer - Media Queries */
+/*=================================================== Footer - Media Queries */
 @media screen and (min-width: 768px) {
     #footer-social {
         text-align: right;
@@ -308,11 +309,10 @@ footer p {
     }
 }
 
-/*--------------------------------------------------- Product Gallery */
+/*=================================================== Product Gallery */
 .gallery-wrapper {
     height: 66%;
     padding-top: 15px;
-    padding-bottom: 15px;
     text-align: center;
     margin: 0 auto;
 }
@@ -361,7 +361,7 @@ footer p {
     margin: 0 auto
 }
 
-/*--------------------------------------------------- More Section */
+/*=================================================== More Section */
 .more-oranges {
     height: 33%;
     background-color: #fff;
@@ -374,7 +374,7 @@ footer p {
     margin: 0 auto;
 }
 
-/*--------------------------------------------------- Mini Gallery */
+/*=================================================== Mini Gallery */
 .mini-resize {
     object-fit: cover;
     object-position: center center;
@@ -394,18 +394,38 @@ footer p {
     margin: 0 auto;
 }
 
-/*--------------------------------------------------- Signup - Pricing */
+/*=================================================== Signup - Pricing */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
 .pricing-wrapper {
-    background-color: #fbe9e7;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.card-header {
-    background-color: #ffb75780;
+.price-info {
+    background-color: #fafafa;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width:100%;
+}
+.price-info h3 {
+    background-color: #ffb75780; 
+}
+
+.price-header {
+    max-width:100%;
     padding: 15px;
+}
+
+.price-body {
+    background-color: wheat;
+    margin: 0 auto;
+}
+
+.price-body h3 {
+    color: lightblue;
 }
 
 .pricing-content {
@@ -431,7 +451,7 @@ footer p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------- Signup - Pricing - Media Queries */
+/*=================================================== Signup - Pricing - Media Queries */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
 @media screen and (min-width: 576px) {
     
@@ -461,13 +481,14 @@ footer p {
     }
 }
 
-/*--------------------------------------------------- Signup - Form */
+/*=================================================== Signup - Form */
 /*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
 .signupform-wrapper {
     background-color: #fbe9e7;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin: 0 auto;
 }
 
 .signupform-wrapper p {
@@ -504,7 +525,7 @@ footer p {
     background-color: #E1E1E1;
 }
 
-/*--------------------------------------------------- Signup - Form - Media Queries */
+/*=================================================== Signup - Form - Media Queries */
 @media screen and (max-width: 576px) {
 
     .signup-form {
@@ -513,7 +534,7 @@ footer p {
 
 }
 
-/*--------------------------------------------------- FAQ */
+/*=================================================== FAQ */
 .faq-wrap {
     background-color: #fff;
     padding-top: 15px;

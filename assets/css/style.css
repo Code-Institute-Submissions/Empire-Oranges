@@ -194,6 +194,13 @@ h6 {
     padding: 20px;
 }
 
+.jumbotron img {
+    width: 200px; 
+    height: 200px;
+    vertical-align: middle;
+    border-style: none;
+}
+
 .jumbotron .lead {
     margin: 25px 0;
     color: #a7a7a7;
@@ -205,7 +212,7 @@ h6 {
     text-shadow: 2px 2px 3px black;
 }
 
-.jumbotron small p {
+#jumbo-smallprint {
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;

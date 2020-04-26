@@ -2,459 +2,440 @@
 <html lang="en">
 
 <head>
-	<!-- Standard Boilerplate from GitPod and bootstrap css & js library, I have added my own css file-->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Signup | Empire Oranges - Fresh Oranges - Delivering from farm to table!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-		integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- Standard Boilerplate from GitPod and bootstrap css & js library, I have added my own css file-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup | Empire Oranges - Fresh Oranges - Delivering from farm to table!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
-	<header>
-		<!-- Nav Bar, inspiration from from w3schools & bootstrap -->
-		<nav class="navbar navbar-dark bg-color-1 navbar-fixed-top navbar-expand-sm">
-			<a href="index.html" class="navbar-brand">Empire Oranges</a>
+    <header>
+        <!-- Nav Bar, inspiration from from w3schools & bootstrap -->
+        <nav class="navbar navbar-dark bg-color-1 sticky-top navbar-expand-sm">
+            <a href="index.html" class="navbar-brand">Empire Oranges</a>
 
-			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-			            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-			            aria-label="Toggle Navigation">
-			            <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span></button>
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mr-2 text-center"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item dropdown text-center">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!-- I want the nav bar to present more direct links on mobile screen -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-2 text-center"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown text-center">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oranges</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- I want the nav bar to present more direct links on mobile screen -->
                             <a class="dropdown-item text-center text-sm-left" href="oranges.html#valencia">Valencia</a>
                             <a class="dropdown-item text-center text-sm-left" href="oranges.html#navel">Navel</a>
                             <a class="dropdown-item text-center text-sm-left" href="oranges.html#satsuma">Satsuma</a>
-							<a class="dropdown-item text-center text-sm-left" href="oranges.html#more">More...</a>
-						</div>
-					</li>
-					<li class="active nav-item mr-2 d-block d-sm-none text-center"><a class="nav-link" href="signup.html">Sign
+                            <a class="dropdown-item text-center text-sm-left" href="oranges.html#more">More...</a>
+                        </div>
+                    </li>
+                    <li class="active nav-item mr-2 d-block d-sm-none text-center"><a class="nav-link" href="signup.html">Sign
 							Up</a></li>
-				</ul>
-			</div>
-			<div class="d-none d-sm-block">
-				<a href="signup.html" class="btn btn--cta btn--brand">Sign Up</a>
-			</div>
-		</nav>
-		<!-- /.Nav Bar END-->
-	</header>
+                </ul>
+            </div>
+            <div class="d-none d-sm-block">
+                <a href="signup.html" class="btn btn--cta btn--brand">Sign Up</a>
+            </div>
+        </nav>
+        <!-- /.Nav Bar END-->
+    </header>
 
-	<!-- Prices -->
-	<div class="pricing-wrapper">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<h2>Pricing</h2>
-					<hr class="line-divider">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-sm-10 col-md-6 col-lg-4" id="free">
-					<div class="price-info">
-						<div class="row">
-							<div class="col">
-								<h3>Free</h3>
-							</div>
-						</div>
-						<div class="row price-body">
-							<div class="col">
-								<div class="row">
-									<div class="col">
-										<h2>£0<small class="text-muted">/ mo</small></h2>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<ul>
-											<li>Fresh fruit for 1st month</li>
-											<li>Free to choose your favourite types of oranges</li>
-											<li>1 pack of oranges for 1st month</li>
-											<li>Free delivery</li>
-											<li>Cancel anytime</li>
-										</ul>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<a href="#signup" class="btn btn--prices btn--brand">Try for free, today!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-10 col-md-6 col-lg-4" id="basic">
-					<div class="price-info">
-						<div class="row">
-							<div class="col">
-								<h3>Basic</h3>
-							</div>
-						</div>
-						<div class="row price-body">
-							<div class="col">
-								<div class="row">
-									<div class="col">
-										<h2>£2.99<small class="text-muted">/ mo</small></h2>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<ul>
-											<li>Fresh fruit monthly</li>
-											<li>Free to choose your favourite types of oranges</li>
-											<li>3 packs of oranges per month</li>
-											<li>Free delivery</li>
-											<li>Cancel anytime</li>
-										</ul>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<a href="#signup" class="btn btn--prices btn--brand">Sign me up!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-10 col-md-6 col-lg-4" id="premium">
-					<div class="price-info">
-						<div class="row">
-							<div class="col">
-								<h3>Premium</h3>
-							</div>
-						</div>
-						<div class="row price-body">
-							<div class="col">
-								<div class="row">
-									<div class="col">
-										<h2>£5.99<small class="text-muted">/ mo</small></h2>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<ul>
-											<li>Fresh fruit monthly</li>
-											<li>Free to choose your favourite types of oranges</li>
-											<li>9 packs of oranges per month</li>
-											<li>Free delivery</li>
-											<li>Cancel anytime</li>
-										</ul>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<a href="#signup" class="btn btn--prices btn--brand">Let's get started!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /. Prices -->
+    <!-- Prices -->
+    <div class="pricing-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Pricing</h2>
+                    <hr class="line-divider">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4" id="free">
+                    <div class="price-info">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Free</h3>
+                            </div>
+                        </div>
+                        <div class="row price-body">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>£0<small class="text-muted">/ mo</small></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>Fresh fruit for 1st month</li>
+                                            <li>Free to choose your favourite types of oranges</li>
+                                            <li>1 pack of oranges for 1st month</li>
+                                            <li>Free delivery</li>
+                                            <li>Cancel anytime</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#signup" class="btn btn--prices btn--brand">Try for free, today!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4" id="basic">
+                    <div class="price-info">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Basic</h3>
+                            </div>
+                        </div>
+                        <div class="row price-body">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>£2.99<small class="text-muted">/ mo</small></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>Fresh fruit monthly</li>
+                                            <li>Free to choose your favourite types of oranges</li>
+                                            <li>3 packs of oranges per month</li>
+                                            <li>Free delivery</li>
+                                            <li>Cancel anytime</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#signup" class="btn btn--prices btn--brand">Sign me up!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4" id="premium">
+                    <div class="price-info">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Premium</h3>
+                            </div>
+                        </div>
+                        <div class="row price-body">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>£5.99<small class="text-muted">/ mo</small></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>Fresh fruit monthly</li>
+                                            <li>Free to choose your favourite types of oranges</li>
+                                            <li>9 packs of oranges per month</li>
+                                            <li>Free delivery</li>
+                                            <li>Cancel anytime</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#signup" class="btn btn--prices btn--brand">Let's get started!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /. Prices -->
 
     <!-- FAQ  -->
-	<div class="faq-wrap">
-		<div class="container-fluid" id="faq">
-			<div class="row">
-				<div class="col">
-					<h2>Frequently Asked Questions (FAQ)</h2>
-					<hr class="line-divider">
-				</div>
-			</div>
-			<div class="container">
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>Who or what is Empire Oranges?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>
-									Empire Oranges is a family run business, and the same family have been running it for
-									the last 200years.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>What's included with my Empire Oranges subscription?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>
-									Your subsription includes between 1-9 packs of our fresh, ethical oranges each month.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>How much does a subscription cost?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>
-									After your first month free, plans start from £2.99 a month. No extra costs or
-									contracts.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>How do I upgrade my subscription?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>
-									Once you sign up and create an account, you can go in to your account
-									settings and choose to upgrade your account through the dashboard
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>How do I cancel my subscription?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>You can easily cancel your account online in two clicks.
-									all you have to do is go into your account settings and choose to cancel
-									your account through the dashboard. There are no cancellation fees
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>Can I change my order after it's gone through?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>You can change/ cancel your order anytime you feel like. Our friendly customer support
-									agents are always ready to help.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>What varieties of oranges do Empire Oranges provide?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>Empire Farms supplies over 20 varieties of oranges, here are our most popular;
-									Valencia, Navel, Satsuma, Clementine, Pineapple oranges,
-									Mandarin, Blood oranges, Seville, Hamlin, Jaffa, Cara Cara, Bahianinha,
-									Moro Tarocco, Parson Brown, Pera, Bergamot, Bigaradier Apepu, Bittersweet Daidai,
-									Gou Tou and Chinotto oranges.
-									<!-- list of oranges taken from https://www.crazymasalafood.com/top-20-varieties-of-oranges-you-must-know/-->
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>Where are Empire Farms located?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>Each of our farms are located in environments which are ideal for our oranges to reach
-									their fulll potential.
-									Our farmers follow ethical, green practices as well as our own strict guidlines to
-									ensure a fairer trade for each of the
-									communities involved on the surrounding site at our farms.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row faq-box">
-					<div class="col">
-						<div class="row">
-							<div class="col faq-qa">
-								<h2>Q.</h2>
-								<p><strong>Can I visit an Orange Farm?</strong></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col faq-ans">
-								<h2>A.</h2>
-								<p>As part of our customer loyalty program, you will be able to visit one of
-									our rustic farm cottages and enjoy a luxury break with family or friends.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-    <!-- /.FAQ -->
-
-	<!-- Sign up -->
-	<div class="signupform-wrapper">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col">
-					<h2 id="signup">Sign Up</h2>
-					<hr class="line-divider">
-					<p class=>
-						It's quick and easy, simply fill in the form below to start your first month free subscription
-					</p>
-				</div>
-			</div>
+    <div class="faq-wrap">
+        <div class="container-fluid" id="faq">
             <div class="row">
                 <div class="col">
-					<div class="container"> <!-- form action link taken from CodeInstitute Love Running Mini Project join-button -->
-						<form action="https://formdump.codeinstitute.net/" method="Post" class="signup-form">
-							<label for="email">Email Address</label>
-							<input type="email" id="email" name="email_address" class="text-input" required>
-							<input type="submit" value="Sign Up!" class="btn btn--prices btn--brand">
-					    </form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /. Sign up -->
+                    <h2>Frequently Asked Questions (FAQ)</h2>
+                    <hr class="line-divider">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>Who or what is Empire Oranges?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>
+                                    Empire Oranges is a family run business, and the same family have been running it for the last 200years.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>What's included with my Empire Oranges subscription?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>
+                                    Your subsription includes between 1-9 packs of our fresh, ethical oranges each month.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>How much does a subscription cost?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>
+                                    After your first month free, plans start from £2.99 a month. No extra costs or contracts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>How do I upgrade my subscription?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>
+                                    Once you sign up and create an account, you can go in to your account settings and choose to upgrade your account through the dashboard
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>How do I cancel my subscription?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>You can easily cancel your account online in two clicks. all you have to do is go into your account settings and choose to cancel your account through the dashboard. There are no cancellation fees
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>Can I change my order after it's gone through?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>You can change/ cancel your order anytime you feel like. Our friendly customer support agents are always ready to help.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>What varieties of oranges do Empire Oranges provide?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>Empire Farms supplies over 20 varieties of oranges, here are our most popular; Valencia, Navel, Satsuma, Clementine, Pineapple oranges, Mandarin, Blood oranges, Seville, Hamlin, Jaffa, Cara Cara, Bahianinha, Moro Tarocco, Parson Brown, Pera, Bergamot, Bigaradier Apepu, Bittersweet Daidai, Gou Tou and Chinotto oranges.
+                                    <!-- list of oranges taken from https://www.crazymasalafood.com/top-20-varieties-of-oranges-you-must-know/-->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>Where are Empire Farms located?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>Each of our farms are located in environments which are ideal for our oranges to reach their fulll potential. Our farmers follow ethical, green practices as well as our own strict guidlines to ensure a fairer trade for each of the communities involved on the surrounding site at our farms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-box">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col faq-qa">
+                                <h2>Q.</h2>
+                                <p><strong>Can I visit an Orange Farm?</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faq-ans">
+                                <h2>A.</h2>
+                                <p>As part of our customer loyalty program, you will be able to visit one of our rustic farm cottages and enjoy a luxury break with family or friends.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.FAQ -->
 
-	<!-- Footer -->
-	<footer class="footer-wrap">
-		<div class="container-fluid">
-			<div class="row">
-				<!-- Footer Top | Big Foot -->
-				<div class="col-12">
-					<div class="row">
-						<div class="col-12 col-md-6 col-lg-6" id="footer-nav">
-							<ul class="footer-lists">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="oranges.html">Oranges</a></li>
-								<li><a href="signup.html">Pricing</a></li>
-								<li><a href="signup.html#faq">FAQ</a></li>
-								<li><a href="signup.html#signup">Sign Up</a></li>
-							</ul>
-							<hr class="line-divider-ft">
-						</div>
-					</div>
-				</div>
-				<div class="row d-none d-md-block col-12">
-					<div class="col">
-						<p><small>
+    <!-- Sign up -->
+    <div class="signupform-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 id="signup">Sign Up</h2>
+                    <hr class="line-divider">
+                    <p>
+                        It's quick and easy, simply fill in the form below to start your first month free subscription
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <!-- form action link taken from CodeInstitute Love Running Mini Project join-button -->
+                        <form action="https://formdump.codeinstitute.net/" method="Post" class="signup-form">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email_address" class="text-input" required>
+                            <input type="submit" value="Sign Up!" class="btn btn--prices btn--brand">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /. Sign up -->
+
+    <!-- Footer -->
+    <footer class="footer-wrap">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Footer Top | Big Foot -->
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6" id="footer-nav">
+                            <ul class="footer-lists">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="oranges.html">Oranges</a></li>
+                                <li><a href="signup.html">Pricing</a></li>
+                                <li><a href="signup.html#faq">FAQ</a></li>
+                                <li><a href="signup.html#signup">Sign Up</a></li>
+                            </ul>
+                            <hr class="line-divider-ft">
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none d-md-block col-12">
+                    <div class="col">
+                        <p><small>
 						    <strong>Disclaimer:</strong>
 						    This is a work of fiction. Names, characters, businesses, places, events, locales,
 						    and incidents are either the products of the author's imagination or used in a
 						    fictitious manner. Any resemblance to actual persons,
 						    living or dead, or actual events is purely coincidental.
 					    </small></p>
-					</div>
-				</div>
-				<!-- /. Footer Top -->
-	
-				<!-- Footer Bottom | Small Foot -->
-				<div class="row container-fluid footer-bottom">
-					<div class="d-none d-md-block col-md-3 col-lg-3" id="footer-logo">
-						<a href="index.html" class="navbar-brand">Empire Oranges</a>
-					</div>
-					<div class="col-12 col-md-6 col-lg-6">
-						<p id="credit">
-							©2020 Empire Oranges & <br class="d-block d-sm-none">
-							<strong><a href="https://www.linkedin.com/in/shamus-birch/"
+                    </div>
+                </div>
+                <!-- /. Footer Top -->
+
+                <!-- Footer Bottom | Small Foot -->
+                <div class="row container-fluid footer-bottom">
+                    <div class="d-none d-md-block col-md-3 col-lg-3" id="footer-logo">
+                        <a href="index.html" class="navbar-brand">Empire Oranges</a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <p id="credit">
+                            ©2020 Empire Oranges &
+                            <br class="d-block d-sm-none">
+                            <strong><a href="https://www.linkedin.com/in/shamus-birch/"
 													    target="_blank">Shamus Birch</a></strong>.
-						</p>
-					</div>
-					<div class="col-12 col-md-3 col-lg-3" id="footer-social">
-						<ul class="footer-lists" id="social-icons">
-							<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-							<li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-							</li>
-							<li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-							</li>
-							<li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- /. Footer Bottom -->
-			</div>
-		</div>
-	</footer>
-	<!-- /. Footer -->
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3" id="footer-social">
+                        <ul class="footer-lists" id="social-icons">
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /. Footer Bottom -->
+            </div>
+        </div>
+    </footer>
+    <!-- /. Footer -->
 
     <!-- CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-	    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-	    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-	    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <!-- /. CDN -->
 
 </body>
+
 </html>

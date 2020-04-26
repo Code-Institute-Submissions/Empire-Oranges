@@ -394,13 +394,7 @@ footer p {
     margin: 0 auto
 }
 
-.mini-resize {
-    height: 380px;
-    object-fit: cover;
-    object-position: center center;
-}
-
-/*--------------------------------------------------- More - Oranges */
+/*--------------------------------------------------- More Section */
 .more-oranges {
     height: 33%;
     background-color: #fff;
@@ -412,6 +406,21 @@ footer p {
 #variety {
     margin: 0 auto;
 }
+
+/*--------------------------------------------------- Mini Gallery */
+.mini-resize {
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/*--------------------------------------------------- Mini Gallery - Media Queries */
+@media screen and (min-width: 500px){
+    .mini-resize {
+    height: 200px;
+    }
+}
+
 
 /*--------------------------------------------------- Signup - Pricing */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */

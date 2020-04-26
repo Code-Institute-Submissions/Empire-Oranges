@@ -2,15 +2,10 @@
 
 /* ---------------------------- General Body */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Open+Sans", sans-serif;
     background-color: #fbe9e7;
     margin: 0;
     padding: 0;
-}
-
-p {
-    font-family: "Open+Sans", sans-serif;
-    display: block;
 }
 
 * {
@@ -31,6 +26,32 @@ a:hover {
 /* ---------------------------- Colours */
 .bg-color-1 { /* orange - #e97253 */
     background-color: #e97253;
+}
+
+/* ---------------------------- Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+ 
+h3,
+h6 {
+    padding: 10px;
 }
 
 /* ---------------------------- Navbar */
@@ -87,14 +108,6 @@ a:hover {
     width: 160px;
 }
 
-.btn--signup {
-    border-radius: 5px;
-    padding: 20px 40px 20px 40px;
-    text-align: center;
-    display: block;
-    width: 160px;
-}
-
 .btn--prices {
     display: block;
     width: 100%;
@@ -103,10 +116,6 @@ a:hover {
     line-height: 1.5;
     border-radius: .3rem;
 } 
-
-.btn--gallery {
-    margin-top: 4px;
-}
 
 .btn--brand {
     color: #fff;
@@ -121,11 +130,6 @@ a:hover {
     color: #fff;
     background-color: #CC8424;
     border-color: #E6A44E;
-}
-
-/* ---------------------------- General Paddings, Margins & Text*/
-.uppercase {
-    text-transform: uppercase;
 }
 
 /* ---------------------------- Line Dividers */
@@ -151,7 +155,7 @@ a:hover {
 }
 
 /* ---------------------------- Hero Section */
-.myhero-container {
+.hero-container {
     height: 33%;
     
     /*the little bit of code copied from https://css-tricks.com/perfect-full-page-background-image/ */
@@ -190,10 +194,7 @@ a:hover {
     color: #a7a7a7
 }
 
-.jumbotron-header {
-    display: block;
-    margin: 0;
-    padding-bottom: 20px;
+.jumbotron h1 {
     font-size: 2rem;
 }
 
@@ -204,8 +205,14 @@ a:hover {
 }
 
 /* ---------------------------- Benefits */
-.benefit {
+.benefits-wrapper--brand {
     text-align: center;
+    background-color: #fbe9e7;
+    color: black;
+    height: 33%;
+} 
+
+.benefit {
     margin-bottom: 40px;
 }
 
@@ -213,25 +220,11 @@ a:hover {
     margin: 0 auto;
 }
 
-.benefits-header {
-    text-align: center;
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .benefit i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 }
-
-.benefits-wrapper--brand {
-    background-color: #fbe9e7;
-    color: black;
-    height: 33%;
-} 
 
 .features {
     margin: 0 auto;
@@ -251,16 +244,6 @@ footer p {
     margin: 0 auto;
     padding-bottom: 10px;
     display: block;
-}
-
-.footer-header {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.footer-row-pad {
-    padding: 10px;
 }
 
 #my-footer-wrap {
@@ -317,25 +300,17 @@ footer p {
 }
 
 /*--------------------------------------------------- Product Gallery */
-.gallery-header {
-    color: black;
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.gallery-header-p {
-    margin: 0 auto;
-    padding-bottom: 15px;
-}
-
 .gallery-wrapper {
     height: 66%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     margin: 0 auto;
+}
+
+.gallery-wrapper p {
+    margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .image-info {
@@ -369,12 +344,6 @@ footer p {
     height: 380px;
     object-fit: cover;
     object-position: center center;
-}
-
-.image-header {
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding: 10px;
 }
 
 #valencia,
@@ -418,13 +387,6 @@ footer p {
 
 /*--------------------------------------------------- Signup - Pricing */
 /*some of the styling bellow inspired by Bootstrap - Pricing Example */
-.pricing-header {
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .pricing-wrapper {
     background-color: #fbe9e7;
     text-align: center;
@@ -492,21 +454,14 @@ footer p {
 
 /*--------------------------------------------------- Signup - Form */
 /*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
-.form-section {
+.signupform-wrapper {
     background-color: #fbe9e7;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.signup-header {
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.signup-header-p {
+.signupform-wrapper p {
     text-align: center;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -550,18 +505,14 @@ footer p {
 }
 
 /*--------------------------------------------------- FAQ */
-.faq-header {
-    text-align: center;
-    font-family: "roboto", sans-serif;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .faq-wrap {
     background-color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.faq-wrap h2 {
+    text-align: center;
 }
 
 .faq-box {
@@ -577,14 +528,14 @@ footer p {
 
 .faq-qa h2 {
     display: inline;
-    border-left: 2px solid #ffb757;
+    border-left: 3px solid #ffb757;
     color: #ffb757;
     padding-left: 10px;
 }
 
 .faq-qa p {
     display: inline;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 10px;
     margin: 0;
 }
@@ -596,7 +547,7 @@ footer p {
 
 .faq-ans h2 {
     display: inline;
-    border-left: 2px solid grey;
+    border-left: 3px solid grey;
     color: grey;
     padding-left: 10px;
 }
@@ -604,6 +555,6 @@ footer p {
 .faq-ans p {
     display: inline;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin: 0;
 }

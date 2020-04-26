@@ -379,9 +379,9 @@ footer p {
 }
 
 .image-resize {
-  height: 380px;
-  object-fit: cover;
-  object-position: center center;
+    height: 380px;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .image-header {
@@ -392,6 +392,12 @@ footer p {
 
 #satsuma {
     margin: 0 auto
+}
+
+.mini-resize {
+    height: 380px;
+    object-fit: cover;
+    object-position: center center;
 }
 
 /*--------------------------------------------------- More - Oranges */

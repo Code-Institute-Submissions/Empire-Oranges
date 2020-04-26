@@ -506,7 +506,7 @@ footer p {
 }
 
 .signup-form {
-    background-color: #fff;
+    background-color: #fafafa;
     max-width: 50%;
     margin: 40px auto;
     padding: 1.25rem;
@@ -522,14 +522,15 @@ footer p {
     margin: 5px 0 20px 0;
     border: 1px solid;
     border-radius: 2px;
+    background-color: #fafafa;
 }
 
 .text-input:hover {
-    background-color: rgba(0,0,0,0.08);
+    background-color: #E1E1E1;
 }
 
 .text-input:active {
-    background-color: rgba(0,0,0,0.08);
+    background-color: #E1E1E1;
 }
 
 /*--------------------------------------------------- Signup - Form - Media Queries */
@@ -552,32 +553,41 @@ footer p {
 
 .faq-wrap {
     background-color: #fff;
-    height: 33%
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.faq-qa {
+.faq-box {
     margin-bottom: 20px;
 }
 
-.faq-qa h2 {
-    font-size: 1.5rem;
+.faq-qa {
+    display: inline-block;
+    background-color: #fafafa;
 }
 
-.faq-qa i {
-    vertical-align: super;
+.faq-qa h2 {
+    display: inline;
+    border-left: 2px solid #e97253;
+    color: #e97253;
+    padding-left: 10px;
+}
+
+.faq-qa h4 {
+    display: inline;
 }
 
 .faq-ans {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 20px;
     font-size: 1rem;
 }
 
-/*--------------------------------------------------- FAQ - Media Queries */
-@media screen and (max-width: 576px) {
-    
-    .faq-ans {
-        padding-left: 0;
-    }
+.faq-ans h2 {
+    display: inline;
+    border-left: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+}
+
+.faq-ans p {
+    display: inline;
 }

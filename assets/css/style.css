@@ -212,9 +212,10 @@ h6 {
 /* ---------------------------- Benefits */
 .benefits-wrapper--brand {
     text-align: center;
-    background-color: #fbe9e7;
+    background-color: #fff;
     color: black;
     height: 33%;
+    box-shadow: 0 3px 5px black inset;
 } 
 
 .benefit {
@@ -226,9 +227,10 @@ h6 {
 }
 
 .benefit i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    color: #808080;
 }
 
 .features {
@@ -239,6 +241,14 @@ h6 {
 }
 
 /*--------------------------------------------------- Footer */
+.footer-wrap {
+    background-color: #e97253;
+    margin-top: 0;
+    padding-top: 15px;
+    text-align: center;
+    box-shadow: 0 -3px 10px #808080;
+}
+
 footer {
     height: 33%;
     margin: 0;
@@ -249,12 +259,6 @@ footer p {
     margin: 0 auto;
     padding-bottom: 10px;
     display: block;
-}
-
-#my-footer-wrap {
-    margin-top: 0;
-    padding-top: 15px;
-    text-align: center;
 }
 
 .footer-lists {

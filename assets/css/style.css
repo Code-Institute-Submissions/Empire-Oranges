@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* =================================================== Anchor links */
 a {
     color: #fff;
@@ -263,7 +267,6 @@ footer p {
 }
 
 .footer-lists {
-    list-style-type: none;
     display: inline-flex;
     display: -moz-inline-box;
     padding: 0;
@@ -420,12 +423,19 @@ footer p {
 }
 
 .price-body {
-    background-color: wheat;
+    background-color: #fff;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .price-body h3 {
     color: lightblue;
+}
+
+#free,
+#basic,
+#premium {
+    margin: 0 auto;
 }
 
 .pricing-content {

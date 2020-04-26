@@ -492,11 +492,13 @@ footer p {
 /*--------------------------------------------------- Signup - Form */
 /*some of the styling bellow inspired by CodeInstitute - Love Running Mini Project */
 .form-section {
-    background-color: #ffab91;
+    background-color: #fbe9e7;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .signup-header {
-    text-align: center;
     font-family: "roboto", sans-serif;
     margin: 0;
     padding-top: 20px;
@@ -510,35 +512,30 @@ footer p {
 }
 
 .signup-form {
-    color: #fafafa;
-    background-color: #d24151;
+    background-color: #fff;
     max-width: 50%;
     margin: 40px auto;
-    padding: 40px;
+    padding: 1.25rem;
     border-radius: .25rem;
     border: 1px solid rgba(0,0,0,.25);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    background-clip: border-box;
 }
 
 .text-input {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #ffffff;
-    background-color: #fafafa;
+    background-color: rgba(0,0,0,0.08);
 }
 
-.join-button {
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    display: block;
+.text-input:active {
+    background-color: rgba(0,0,0,0.08);
 }
 
 /*--------------------------------------------------- Signup - Form - Media Queries */

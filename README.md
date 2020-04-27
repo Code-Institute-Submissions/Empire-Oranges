@@ -1,6 +1,6 @@
 # Empire Oranges | A fresh fruit delivery service.
 
-Code Institute Milestone Project 1 - Static Front End Website
+Code Institute Milestone Project 1 - User-Centric Frontend Website
 
 This project is a website that contains three pages: the home page, gallery and sign up. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as brief description of the subscription benefits, an image gallery and an FAQ section.
 

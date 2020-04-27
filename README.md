@@ -4,9 +4,26 @@ Code Institute Milestone Project 1 - Static Front End Website
 
 This project is a website that contains three pages: the home page, gallery and sign up. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as brief description of the subscription benefits, an image gallery and an FAQ section.
 
-![alt text](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Responsive-Website.jpg "My Responsive Website")
+![Empire Oranges - Responsive Website](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Responsive-Website.jpg "Empire Oranges - Responsive Website")
 
 A live demo can be found [here](https://shaamuus.github.io/Empire-Oranges/)
+
+---
+
+## Table of Contents
+- [Introduction](#introduction)
+- [UX](#ux)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Future Features](#future-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Disclaimer](#disclaimer)
 
 ---
 
@@ -15,6 +32,8 @@ A live demo can be found [here](https://shaamuus.github.io/Empire-Oranges/)
 My project is called ‘Empire Oranges’. It is a work of fiction, but as a concept seems to fit in well with culture lately. Every big company/ corporation wants you to join their subscription based service, and we see this vehemently with television networks using mobile phones as their platform. So, as I was reflecting on this as well as the current state of the world, with no one allowed out of their homes anymore, I thought to myself, it would be an amazing niche if there was someone offering a subscription based service for fresh fruits right now, and especially oranges. Pretty much guaranteed healthy food delivered to you regulary with out having to leave the comfort of your couch. So the company "Empire Oranges" are an old, family run business. Established over 200yrs ago, and are now global, with farms all over the world and looking to modernize business practices and begin diversifing their product placement, mostly by implementing a new subscription based service. As times are changing, they still remain in touch with their rustic Spanish roots, and this can be seen when you visit one of their farm cottages. The hospitality is to die for. 
 
 Empire Farms have been supplying oranges to local supermarkets and fruit & veg markets their entire lives, this has been a trying and tumultuous path, leading to millions of pounds's worth of food wastage due to fruits just sitting around, rotting, and catching flies in the open air. The new service aims to reduce shelf time by going directly to the customer, right at home. Cutting down tons of food waste, bringing the fruit to the customer quicker than supermarket home delivery services too and its already having a positive impact in cities surrounding their farms. So to celebrate a step in the company's new direction Empire Oranges needed a new website to promote the new service. My project is to develop a visually attractive and informative website for Empire Oranges, that can bring to life the idea of fruit being delivered straight to a customers doorstep. 
+
+---
 
 ## UX
 
@@ -44,15 +63,25 @@ Empire Farms have been supplying oranges to local supermarkets and fruit & veg m
 
 ### User Stories
 
-- _As a user of the website, I want everything layed out in a familiar way, with simple intuitive access to links.
-- _As a user of the website, I don't want to wait for the website to load, I want quick and fast loading times. 
-- _As a user of the website, I want to see the range of products on offer, to know what I can expect.
-- _As a user of the website, I need to be able to contact anyone from the organisation, regardless of how big the company is.
-- _As a user of the website, I want to know I can have my doubts and questions answered, right there in front of me on the page.
-- _As a user of the website, I want to know that when I submit my email address, its actually a working link.
+- _As a user of the website, I want everything layed out in a familiar way, with simple intuitive access to links._
+- _As a user of the website, I don't want to wait for the website to load, I want quick and fast loading times._
+- _As a user of the website, I want to see the range of products on offer, to know what I can expect._
+- _As a user of the website, I need to be able to contact anyone from the organisation, regardless of how big the company is._
+- _As a user of the website, I want to know I can have my doubts and questions answered, right there in front of me on the page._
+- _As a user of the website, I want to know that when I submit my email address, its actually a working link._
 
 ### Wireframes 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As part of the development process I created three wireframes for my website using [Balsamiq]
+This was at the start of the project and helped me work towards my final result. When you compare them as a 'before' and my final result as the 'after' you can see some features were left out amd some design elements where changed but overal you can see the wireframes have had an impact.
+
+Below are the examples for each of my pages:
+![Empire Oranges - Home Page](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Wireframe-Index.png "Empire Oranges - Home Page")
+
+![Empire Oranges - Product Page](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Wireframe-Products.png "Empire Oranges - Product Page")
+
+![Empire Oranges - Signup Page](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Wireframe-Calltoaction.png "Empire Oranges - Signup Page")
+
+---
 
 ## Features
 
@@ -73,7 +102,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 + **FAQ:** allows users to find out what the answers are to questions they might have
 + **Sign Up Form:** allows users to input their email address and start the journey of getting ornages monthly
 
-I feel these features currently achieve what both customers and the business want from the website
+**Me**:I feel these features currently achieve what both customers and the business want from the website
 
 ### Future Features
 
@@ -89,47 +118,51 @@ I feel these features currently achieve what both customers and the business wan
 - ***Online Shop:*** Adding a shop so customers can buy from the entire catalouge of Empire Orange products
 - ***User Account:*** Customers can keep their details safe, see order history
 
-**Me**: I feel these features left to implement will add a richer user experience, especially being able to have an account, shop for whatever I wanted and get in touch if i had a concern
+**Me** : I feel these features left to implement will add a richer user experience, especially being able to have an account, shop for whatever I wanted and get in touch if i had a concern
 
+---
 
 ## Technologies Used
 
 The following technologies has been used in this project:
 
-Languages
+### Languages
 - [HTML](https://en.wikipedia.org/wiki/HTML) is the main markup language used in this project
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is used for styling all the HTML
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) is indirectly used by Bootstrap for the navbar
 
-Styling
+### Styling
 - [FontAwesome](https://fontawesome.com/) for the icons in the footer social links
 - [Google fonts](https://fonts.google.com/) for the 'roboto' and 'open+sans' fonts used within my webpage
 - [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel/) for helping me decide on what shade of colours to choose
 - [Material.io by Google](https://material.io/resources/color/#!/?view.left=0&view.right=0) another helpful colour tool
 
-Framework
+### Framework
 - [Bootstrap](https://getbootstrap.com/) for its grid framework, and in this project the navigation menu and responsive column sizes 
 
-Images
+### Images
 - [Tinyjpg.com](https://tinyjpg.com/) I used this site to help reduce the size of the images
 - [crazymasalafood](https://www.crazymasalafood.com/top-20-varieties-of-oranges-you-must-know/) I got my images from this website
 - [Adobe Spark](https://spark.adobe.com/home/) I created the logo from Empire Oranges using Adobe Spark
 
-Testing
+### Testing
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) I've used this tool so much over the last week I've even learnt the leyboard shortcut for it. I used this feature to test the responsiveness of the website as I was making it and to sort out any issues/ problems that occured.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) I used this to validate the CSS code
 - [Markup Validator](https://validator.w3.org/) I used this to validate the HTML code
 - [HTML Formatter](https://htmlformatter.com/) I used this to format my HTML
 
+---
 
 ## Testing
-for delevopment and testing python3 -m http.server
----
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. for delevopment and testing python3 -m http.server
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+### Test Scenarios
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -143,6 +176,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+---
 
 ## Deployment
 
@@ -169,6 +203,7 @@ To deploy the code locally using gitpod, the follow steps need to be taken:
 4. A dialouge box reading 'A service is available on port 8000' will show to the right. Click on 'Open Browser'
 5. This runs your code locally allowing you to view your project in the browser. No deployment necessessary
 
+---
 
 ## Credits
 
@@ -178,14 +213,12 @@ Also thank you to the Student Care team, who helped me navigate this project whi
 
 A big shout out to everyone answering questions on chatroom boards concerning HTML & CSS - I learnt so much more from reading the comments than getting the answers.
 
-
 ### Content
 
 I especially wanna thank Elisa Perks for helping me mull over my ideas and flesh them out.
 We came up with the subscription service together, however I wrote out all the code, reaad a lot of bootstrap documentation and sourced the information and images on oranges.
 
 - Code for the navbar copied from Code Institute Whiskey drop tutorial
-
 
 ### Media
 
@@ -195,15 +228,12 @@ The Empire Oranges logo on the homepage was made using [Adobe Spark](https://spa
 
 Icons in the footer were taken from [FontAwesome](https://fontawesome.com/)
 
-
 ### Acknowledgements
 
 I received a lot of my initial inspiration from Code Institute tutorials, especially with bootstrap and seeing how easy and put together that framework was
 
+---
 
 ## Disclaimer
 
-This is a work of fiction. Names, characters, businesses, places, events, locales,
-						    and incidents are either the products of the author's imagination or used in a
-						    fictitious manner. Any resemblance to actual persons,
-						    living or dead, or actual events is purely coincidental.
+This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.

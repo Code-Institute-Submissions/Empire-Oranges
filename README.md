@@ -1,7 +1,10 @@
-# Empire Oranges
+# Empire Oranges | A fresh fruit delivery subscription based service.
 
-A fresh fruit delivery subscription based service.
----
+Code Institute Milestone Project 1 - Static Front End Website
+
+This project is a website that contains three pages: the home page, gallery and sign up. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
+
+![alt text](https://github.com/shaamuus/Empire-Oranges/blob/master/attachments/Responsive-Website.jpg "My Responsive Website")
 
 A live demo can be found [here](https://shaamuus.github.io/Empire-Oranges/)
 
